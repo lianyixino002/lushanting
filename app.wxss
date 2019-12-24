@@ -1,0 +1,91 @@
+/**app.wxss**/
+@import './assets/font/iconfont.wxss';
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+
+.topNav {
+  padding: 0 48rpx;
+  padding-bottom: 50rpx;
+}
+
+.topNav text {
+  color: #fff;
+  font-size: 40rpx;
+  line-height: 60rpx;
+}
+
+.topNav text.list {
+  float: right;
+}
+
+.indexOuter .kindImg .hotBB {
+  background-color: #2b323b;
+  width: 600rpx;
+  border-radius: 15rpx;
+  position: relative;
+}
+
+.indexOuter .kindImg .hotBB image {
+  width: 168rpx;
+  height: 250rpx;
+  /* float: left; *//* margin-left: 33rpx; *//* border-radius: 5rpx; */
+  position: absolute;
+  top: -30rpx;
+  left: 33rpx;
+}
+
+.indexOuter .kindImg .hotBB .bookD {
+  margin-left: 230rpx;
+  padding-bottom: 20rpx;
+}
+
+.indexOuter .kindImg .hotBB .bookD .auD {
+  width: 330rpx;
+  border-bottom: 2rpx solid #363d47;
+  padding-top: 28rpx;
+  padding-bottom: 25rpx;
+}
+
+.indexOuter .kindImg .hotBB .bookD text {
+  display: block;
+  width: 330rpx;
+}
+
+.indexOuter .kindImg .hotBB .bookD .auD .bN {
+  color: #fff;
+  font-size: 34rpx;
+}
+
+.indexOuter .kindImg .hotBB .bookD .auD .aN {
+  color: #5d637c;
+  font-size: 22rpx;
+  margin-top: 10rpx;
+}
+
+.indexOuter .kindImg .hotBB .bookD .shortD {
+  color: #868dab;
+  font-size: 23rpx;
+  line-height: 35rpx;
+  margin-top: 17rpx;
+  overflow: hidden;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.indexOuter .kindImg .hotBB .more {
+  position: absolute;
+  top: 25rpx;
+  right: 30rpx;
+  color: #969baf;
+  font-size: 35rpx;
+}

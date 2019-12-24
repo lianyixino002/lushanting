@@ -1,0 +1,51 @@
+{
+  "id": "1578868",
+  "name": "lushanting",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "551841",
+      "name": "省略号",
+      "font_class": "more",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "649314",
+      "name": "右",
+      "font_class": "you",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "730810",
+      "name": "左",
+      "font_class": "icon-arrow-left4",
+      "unicode": "e678",
+      "unicode_decimal": 59000
+    },
+    {
+      "icon_id": "1759088",
+      "name": "查看",
+      "font_class": "chakan",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "7241495",
+      "name": "list",
+      "font_class": "list",
+      "unicode": "e663",
+      "unicode_decimal": 58979
+    },
+    {
+      "icon_id": "7450616",
+      "name": "奖杯",
+      "font_class": "jiangbei",
+      "unicode": "e660",
+      "unicode_decimal": 58976
+    }
+  ]
+}

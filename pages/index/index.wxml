@@ -1,0 +1,124 @@
+<view class="indexOuter">
+  <view class="topNav">
+    <text class="iconfont icon-jiangbei" bindtap="rundomcolor"></text>
+    <text class="iconfont icon-list list"></text>
+  </view>
+  <view class="search">
+    <text class="iconfont icon-chakan chakan"></text>
+    <input type="text" placeholder="搜索"></input>
+  </view>
+  <view class="kindImg">
+    <view class="kind">
+      <text class="kindOf">分类排行</text>
+      <text class="lookAll">查看全部 <text class="iconfont icon-you you"></text></text>
+    </view>
+    <view class="ki one">
+      <image src="../../assets/images/kind1.png"></image>
+      <text class="it">科幻</text>
+    </view>
+    <view class="ki">
+      <image src="../../assets/images/kind2.png"></image>
+      <text class="it">生活</text>
+    </view>
+    <view class="ki">
+      <image src="../../assets/images/kind3.png"></image>
+      <text class="it">露营</text>
+    </view>
+    <view class="ki four">
+      <image src="../../assets/images/kind4.png"></image>
+      <text class="it">职场</text>
+    </view>
+
+  </view>
+  <view class="kindImg">
+    <view class="kind">
+      <text class="kindOf">作者排行</text>
+      <text class="lookAll">查看全部 <text class="iconfont icon-you you"></text></text>
+    </view>
+
+    <view class="ki one">
+      <image src="../../assets/images/kind5.png"></image>
+      <text class="it">刘慈欣</text>
+    </view>
+    <view class="ki">
+      <image src="../../assets/images/kind6.png"></image>
+      <text class="it">田小花</text>
+    </view>
+    <view class="ki">
+      <image src="../../assets/images/kind7.png"></image>
+      <text class="it">马尔克斯</text>
+    </view>
+    <view class="ki four">
+      <image src="../../assets/images/kind8.png"></image>
+      <text class="it">余秋生</text>
+    </view>
+
+  </view>
+  <view class="kindImg newBook">
+    <view class="kind">
+      <text class="kindOf">新发布</text>
+      <text class="lookAll">查看全部 <text class="iconfont icon-you you"></text></text>
+    </view>
+    <view class="ki one">
+      <image src="../../assets/images/book1.png"></image>
+      <text class="it">三体·死神永生</text>
+      <text class="au">刘慈欣</text>
+    </view>
+    <view class="ki one">
+      <image src="../../assets/images/book2.png"></image>
+      <text class="it">人类简史</text>
+      <text class="au">尤瓦尔·郝拉利</text>
+    </view>
+    <view class="ki one">
+      <image src="../../assets/images/book3.png"></image>
+      <text class="it">徐三观卖血记</text>
+      <text class="au">余华</text>
+    </view>
+    <view class="ki one">
+      <image src="../../assets/images/book4.png"></image>
+      <text class="it">三体·死神永生</text>
+      <text class="au">刘慈欣</text>
+    </view>
+    <view class="ki one">
+      <image src="../../assets/images/book5.png"></image>
+      <text class="it">人类简史</text>
+      <text class="au">尤瓦尔·郝拉利</text>
+    </view>
+    <view class="ki one">
+      <image src="../../assets/images/book6.png"></image>
+      <text class="it">徐三观卖血记</text>
+      <text class="au">余华</text>
+    </view>
+
+
+
+
+  </view>
+  <view class="hot">
+    <text class="hotSear">热门搜索</text>
+    <block wx:for="{{ border }}" wx:key="index">
+      <text class="cir pai" style="color:{{ border[index].color }};border-color:{{ border[index].color }}">{{ border[index].text }}</text>
+    </block>
+    <!-- <text class="cir zhi">职场热门</text>
+    <text class="cir du">都市言情</text>
+    <text class="cir ha">哈弗大学经济管理类</text>
+    <text class="cir ling">领导才能</text> -->
+  </view>
+  <view class="kindImg hotSell">
+    <view class="kind">
+      <text class="kindOf">热销榜</text>
+      <text class="lookAll">查看全部 <text class="iconfont icon-you you"></text></text>
+    </view>
+    <view class="hotBB">
+      <image src="../../assets/images/bookD1.png"></image>
+      <view class="bookD">
+        <view class="auD">
+          <text class="bN">三体·死神永生</text>
+          <text class="aN">作者：刘慈欣</text>
+        </view>
+        <text class="shortD">刘慈欣创作的系列长篇科幻小说地球往事三部曲的第三部作品lalalalal</text>
+      </view>
+      <text class="iconfont icon-more more"></text>
+    </view>
+  </view>
+</view>

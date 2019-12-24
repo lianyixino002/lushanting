@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/science/science",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#21272e",
+    "navigationBarTitleText": "麓山亭",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#71768c",
+    "selectedColor": "#f54d82",
+    "backgroundColor": "#2a313a",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "assets/images/shouye.png",
+        "selectedIconPath": "assets/images/shouye1.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "assets/images/diqiu.png",
+        "selectedIconPath": "assets/images/diqiu1.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "assets/images/shu.png",
+        "selectedIconPath": "assets/images/shu1.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "assets/images/my.png",
+        "selectedIconPath": "assets/images/my1.png"
+      }
+    ]
+  }
+}

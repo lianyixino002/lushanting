@@ -1,0 +1,9 @@
+.indexOuter {
+  background-color: #21272e;
+}
+.hotBB{
+  margin: 0 auto;
+}
+.kindImg{
+  margin-top: 90rpx;
+}

@@ -1,0 +1,59 @@
+<view class="indexOuter">
+  <view class="topNav">
+    <text class="iconfont icon-icon-arrow-left4"></text>
+    <text class="iconfont icon-list list"></text>
+  </view>
+  <view class="kindImg hotSell">
+    <view class="hotBB">
+      <image src="../../assets/images/bookD1.png"></image>
+      <view class="bookD">
+        <view class="auD">
+          <text class="bN">三体·死神永生</text>
+          <text class="aN">作者：刘慈欣</text>
+        </view>
+        <text class="shortD">刘慈欣创作的系列长篇科幻小说地球往事三部曲的第三部作品lalalalal</text>
+      </view>
+      <text class="iconfont icon-more more"></text>
+    </view>
+  </view>
+  <view class="kindImg hotSell">
+    <view class="hotBB">
+      <image src="../../assets/images/bookD2.png"></image>
+      <view class="bookD">
+        <view class="auD">
+          <text class="bN">未来简史</text>
+          <text class="aN">作者:尤瓦尔·郝拉利</text>
+        </view>
+        <text class="shortD">讲述了-段有关未来50年令人难以置信的故事。他剖析了各国...</text>
+      </view>
+      <text class="iconfont icon-more more"></text>
+    </view>
+  </view>
+  <view class="kindImg hotSell">
+    <view class="hotBB">
+      <image src="../../assets/images/bookD3.png"></image>
+      <view class="bookD">
+        <view class="auD">
+          <text class="bN">银河帝国</text>
+          <text class="aN">作者:艾萨克·阿西莫夫</text>
+        </view>
+        <text class="shortD">在机器人的帮助下，人类迅速掌握了 改造外星球的技术，开启了恢...</text>
+      </view>
+      <text class="iconfont icon-more more"></text>
+    </view>
+  </view>
+  <view class="kindImg hotSell">
+    <view class="hotBB">
+      <image src="../../assets/images/bookD4.png"></image>
+      <view class="bookD">
+        <view class="auD">
+          <text class="bN">海底两万里</text>
+          <text class="aN">作者:儒勒·凡尔纳</text>
+        </view>
+        <text class="shortD">讲述了博物学家阿龙纳斯、其仆人康 塞尔和鱼叉手尼德·兰一起随鹦鹉。...</text>
+      </view>
+      <text class="iconfont icon-more more"></text>
+    </view>
+  </view>
+
+</view>
