@@ -1,7 +1,10 @@
 .indexOuter {
   position: relative;
+  padding-bottom: 240rpx;
 }
-
+.fangxing{
+  margin-left: 20rpx;
+}
 .indexOuter .topNav .gengduofuwu {
   color: #71768c;
 }
