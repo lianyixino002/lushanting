@@ -1,6 +1,10 @@
 /**app.wxss**/
 @import './assets/font/iconfont.wxss';
 
+.indexOuter {
+  background-color: #21272e;
+}
+
 .container {
   height: 100%;
   display: flex;
@@ -14,6 +18,9 @@
 .topNav {
   padding: 0 48rpx;
   padding-bottom: 50rpx;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30rpx;
 }
 
 .topNav text {
@@ -21,9 +28,13 @@
   font-size: 40rpx;
   line-height: 60rpx;
 }
+.topNav text.content {
+  /* display: block; */
+  /* text-align: center; */
+}
 
 .topNav text.list {
-  float: right;
+  /* float: right; */
 }
 
 .indexOuter .kindImg .hotBB {

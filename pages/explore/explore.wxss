@@ -1,0 +1,90 @@
+.indexOuter {
+  position: relative;
+}
+
+.indexOuter .topNav .gengduofuwu {
+  color: #71768c;
+}
+.indexOuter .topNav .jiantou{
+  color: #21272e;
+}
+.indexOuter .middle text {
+  display: block;
+  text-align: center;
+}
+
+.indexOuter .middle {
+  width: 390rpx;
+  margin: 0 auto;
+}
+
+.indexOuter .middle image {
+  width: 390rpx;
+  height: 580rpx;
+}
+
+.indexOuter .middle .name {
+  font-size: 42rpx;
+  color: #fff;
+  margin-top: 40rpx;
+}
+
+.indexOuter .middle .author {
+  color: #656a7b;
+  font-size: 34rpx;
+  margin-top: 30rpx;
+  padding-bottom: 70rpx;
+  border-bottom: 2px solid #2e3640;
+}
+
+.indexOuter .middle image.littleH {
+  width: 308rpx;
+  height: 69rpx;
+  display: block;
+  margin: 0 auto;
+  margin-top: 48rpx;
+  margin-bottom: 37rpx;
+}
+
+.indexOuter .middle .readen {
+  color: #a2a8ba;
+  font-size: 22rpx;
+}
+
+.indexOuter .fixeds {
+  width: 240rpx;
+  height: 84rpx;
+  background-color: #15191d;
+  border-bottom-left-radius: 42rpx;
+  border-top-left-radius: 42rpx;
+  position: absolute;
+  bottom: 215rpx;
+  right: 0;
+}
+
+.indexOuter .fixeds image {
+  width: 68rpx;
+  height: 68rpx;
+  border-radius: 100%;
+  float: left;
+  margin: auto 0;
+  margin-left: 10rpx;
+  margin-top: 8rpx;
+}
+
+.indexOuter .fixeds .texts {
+  margin-left: 85rpx;
+  padding:15rpx 0;
+}
+
+.indexOuter .fixeds .texts .name {
+  font-size: 23rpx;
+  color: #fff;
+  display: block;
+}
+
+.indexOuter .fixeds .texts .recommend {
+  font-size: 21rpx;
+  color: #707483;
+  display: block;
+}

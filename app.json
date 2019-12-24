@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/explore/explore",
     "pages/science/science",
     "pages/index/index",
     "pages/logs/logs"
@@ -23,7 +24,7 @@
         "selectedIconPath": "assets/images/shouye1.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/explore/explore",
         "iconPath": "assets/images/diqiu.png",
         "selectedIconPath": "assets/images/diqiu1.png"
       },

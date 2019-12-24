@@ -1,0 +1,24 @@
+<view class="indexOuter">
+  <view class="topNav">
+    <text class="iconfont icon-icon-arrow-left4 jiantou"></text>
+    <text>探索</text>
+    <view class="icon">
+      <text class="iconfont icon-gengduofuwu gengduofuwu"></text>
+      <text class="iconfont icon-fangxing fangxing"></text>
+    </view>
+  </view>
+  <view class="middle">
+    <image src="../../assets/images/explore.png"></image>
+    <text class="name">三体：死神永生</text>
+    <text class="author">刘慈欣</text>
+    <image src="../../assets/images/littleH.png" class="littleH"></image>
+    <text class="readen">457人已阅读</text>
+  </view>
+  <view class="fixeds">
+    <image src="../../assets/images/littleHf.png" class="littleHf"></image>
+    <view class="texts">
+      <text class="name">陈小冬</text>
+      <text class="recommend">推荐</text>
+    </view>
+  </view>
+</view>

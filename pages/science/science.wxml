@@ -1,6 +1,7 @@
 <view class="indexOuter">
   <view class="topNav">
     <text class="iconfont icon-icon-arrow-left4"></text>
+    <text class="content">科幻</text>
     <text class="iconfont icon-list list"></text>
   </view>
   <view class="kindImg hotSell">

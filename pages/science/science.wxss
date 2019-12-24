@@ -1,6 +1,4 @@
-.indexOuter {
-  background-color: #21272e;
-}
+
 .hotBB{
   margin: 0 auto;
 }
