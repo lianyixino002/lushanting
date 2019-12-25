@@ -5,8 +5,14 @@
 .fangxing{
   margin-left: 20rpx;
 }
-.indexOuter .topNav .gengduofuwu {
+.indexOuter .topNav .gray {
   color: #71768c;
+}
+.indexOuter .topNav .white {
+  color: #fff;
+}
+.indexOuter .topNav .fang {
+  margin-left: 20rpx;
 }
 .indexOuter .topNav .jiantou{
   color: #21272e;
@@ -26,7 +32,7 @@
   height: 580rpx;
 }
 
-.indexOuter .middle .name {
+.indexOuter .middle .bookName {
   font-size: 42rpx;
   color: #fff;
   margin-top: 40rpx;
@@ -60,8 +66,8 @@
   background-color: #15191d;
   border-bottom-left-radius: 42rpx;
   border-top-left-radius: 42rpx;
-  position: absolute;
-  bottom: 215rpx;
+  position: fixed;
+  bottom: 190rpx;
   right: 0;
 }
 
@@ -79,15 +85,49 @@
   margin-left: 85rpx;
   padding:15rpx 0;
 }
-
+.indexOuter .fixeds .texts text{
+  text-align: left;
+  display: block;
+}
 .indexOuter .fixeds .texts .name {
   font-size: 23rpx;
   color: #fff;
-  display: block;
 }
 
 .indexOuter .fixeds .texts .recommend {
   font-size: 21rpx;
   color: #707483;
+}
+
+.indexOuter .middle2{
+  padding:130rpx 90rpx;
+  padding-top: 60rpx;
+}
+.indexOuter .middle2 .bDetail{
+  width: 268rpx;
+  margin-bottom: 80rpx;
+  margin-right: 30rpx;
+  display: inline-block;
+}
+.indexOuter .middle2 .bDetail.right{
+  margin-right: 0;
+}
+.indexOuter .middle2 text{
   display: block;
+  text-align: center;
+  color: #fff;
+  font-size: 26rpx;
+  margin-top: 20rpx;
+}
+
+.indexOuter .middle2 image{
+  width: 268rpx;
+  height: 400rpx;
+}
+.show{
+  display: block;
+}
+.hidden{
+  display: none;
+  /* visibility: hidden; */
 }

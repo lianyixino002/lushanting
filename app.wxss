@@ -18,9 +18,9 @@
 .topNav {
   padding: 0 48rpx;
   padding-bottom: 50rpx;
-  display: flex;
-  justify-content: space-between;
   padding-top: 30rpx;
+  overflow: hidden;
+  position: relative;
 }
 
 .topNav text {
@@ -28,14 +28,25 @@
   font-size: 40rpx;
   line-height: 60rpx;
 }
-.topNav text.content {
-  /* display: block; */
-  /* text-align: center; */
+
+.topNav .left {
+  position: absolute;
+  left: 48rpx;
+  top: 30rpx;
+  /* color: #fff; */
 }
 
-.topNav text.list {
-  /* float: right; */
+.topNav .icon {
+  position: absolute;
+  right: 48rpx;
+  top: 30rpx;
 }
+
+.topNav text.content {
+  display: block;
+  text-align: center;
+}
+
 
 .indexOuter .kindImg .hotBB {
   background-color: #2b323b;
