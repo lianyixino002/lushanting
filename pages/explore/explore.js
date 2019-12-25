@@ -1,4 +1,5 @@
 // pages/explore/explore.js
+const app = getApp();
 Page({
 
   /**
@@ -20,7 +21,7 @@ Page({
       ex2Show: false,
     })
   },
-
+  jumpBD:app.jumpBD,
   /**
    * 生命周期函数--监听页面加载
    */

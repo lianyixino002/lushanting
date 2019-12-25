@@ -61,32 +61,32 @@
       <text class="kindOf">新发布</text>
       <text class="lookAll">查看全部 <text class="iconfont icon-you you"></text></text>
     </view>
-    <view class="ki one">
+    <view class="ki one" bindtap="jumpBD">
       <image src="../../assets/images/book1.png"></image>
       <text class="it">三体·死神永生</text>
       <text class="au">刘慈欣</text>
     </view>
-    <view class="ki one">
+    <view class="ki one" bindtap="jumpBD">
       <image src="../../assets/images/book2.png"></image>
       <text class="it">人类简史</text>
       <text class="au">尤瓦尔·郝拉利</text>
     </view>
-    <view class="ki one">
+    <view class="ki one" bindtap="jumpBD">
       <image src="../../assets/images/book3.png"></image>
       <text class="it">徐三观卖血记</text>
       <text class="au">余华</text>
     </view>
-    <view class="ki one">
+    <view class="ki one" bindtap="jumpBD">
       <image src="../../assets/images/book4.png"></image>
       <text class="it">三体·死神永生</text>
       <text class="au">刘慈欣</text>
     </view>
-    <view class="ki one">
+    <view class="ki one" bindtap="jumpBD">
       <image src="../../assets/images/book5.png"></image>
       <text class="it">人类简史</text>
       <text class="au">尤瓦尔·郝拉利</text>
     </view>
-    <view class="ki one">
+    <view class="ki one" bindtap="jumpBD">
       <image src="../../assets/images/book6.png"></image>
       <text class="it">徐三观卖血记</text>
       <text class="au">余华</text>
@@ -111,7 +111,7 @@
       <text class="kindOf">热销榜</text>
       <text class="lookAll">查看全部 <text class="iconfont icon-you you"></text></text>
     </view>
-    <view class="hotBB">
+    <view class="hotBB" bindtap="jumpBD">
       <image src="../../assets/images/bookD1.png"></image>
       <view class="bookD">
         <view class="auD">

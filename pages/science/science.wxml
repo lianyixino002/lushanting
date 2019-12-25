@@ -6,7 +6,7 @@
       <text class="iconfont icon-list list"></text>
     </view>
   </view>
-  <view class="kindImg hotSell">
+  <view class="kindImg hotSell" bindtap="jumpBD">
     <view class="hotBB">
       <image src="../../assets/images/bookD1.png"></image>
       <view class="bookD">
@@ -19,7 +19,7 @@
       <text class="iconfont icon-more more"></text>
     </view>
   </view>
-  <view class="kindImg hotSell">
+  <view class="kindImg hotSell" bindtap="jumpBD">
     <view class="hotBB">
       <image src="../../assets/images/bookD2.png"></image>
       <view class="bookD">
@@ -32,7 +32,7 @@
       <text class="iconfont icon-more more"></text>
     </view>
   </view>
-  <view class="kindImg hotSell">
+  <view class="kindImg hotSell" bindtap="jumpBD">
     <view class="hotBB">
       <image src="../../assets/images/bookD3.png"></image>
       <view class="bookD">
@@ -45,7 +45,7 @@
       <text class="iconfont icon-more more"></text>
     </view>
   </view>
-  <view class="kindImg hotSell">
+  <view class="kindImg hotSell" bindtap="jumpBD">
     <view class="hotBB">
       <image src="../../assets/images/bookD4.png"></image>
       <view class="bookD">

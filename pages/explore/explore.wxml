@@ -8,8 +8,8 @@
     </view>
   </view>
   <view class="{{ ex1Show ? 'middle show' : 'middle hidden' }}">
-    <image src="../../assets/images/explore1.png"></image>
-    <text class="bookName">三体：死神永生</text>
+    <image src="../../assets/images/explore1.png"  bindtap="jumpBD"></image>
+    <text class="bookName"  bindtap="jumpBD">三体：死神永生</text>
     <text class="author">刘慈欣</text>
     <image src="../../assets/images/littleH.png" class="littleH"></image>
     <text class="readen">457人已阅读</text>
@@ -22,19 +22,19 @@
     </view>
   </view>
   <view class="{{ ex2Show ? 'middle2 show' : 'middle2 hidden' }}">
-    <view class="bDetail">
+    <view class="bDetail" bindtap="jumpBD">
       <image src="../../assets/images/explore21.png"></image>
       <text class="bName">三体：死神永生</text>
     </view>
-    <view class="bDetail right">
+    <view class="bDetail right" bindtap="jumpBD">
       <image src="../../assets/images/explore22.png"></image>
       <text class="bName">三体：死神永生</text>
     </view>
-    <view class="bDetail">
+    <view class="bDetail" bindtap="jumpBD">
       <image src="../../assets/images/explore23.png"></image>
       <text class="bName">三体：死神永生</text>
     </view>
-    <view class="bDetail right">
+    <view class="bDetail right" bindtap="jumpBD">
       <image src="../../assets/images/explore24.png"></image>
       <text class="bName">三体：死神永生</text>
     </view>

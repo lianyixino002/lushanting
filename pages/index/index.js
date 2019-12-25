@@ -62,6 +62,7 @@ Page({
       url: '../search/search',
     })
   },
+  jumpBD:app.jumpBD,
   //事件处理函数
   onLoad: function() {
     // function rundomcolor() {

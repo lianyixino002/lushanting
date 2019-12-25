@@ -1,4 +1,5 @@
 // pages/science/science.js
+const app = getApp();
 Page({
 
   /**
@@ -12,6 +13,7 @@ Page({
       
     })
   },
+  jumpBD:app.jumpBD,
   /**
    * 生命周期函数--监听页面加载
    */
