@@ -1,8 +1,10 @@
 <view class="indexOuter">
   <view class="topNav">
-    <text class="iconfont icon-icon-arrow-left4"></text>
+    <text class="iconfont icon-icon-arrow-left4 left" bindtap="goBack"></text>
     <text class="content">科幻</text>
-    <text class="iconfont icon-list list"></text>
+    <view class="icon">
+      <text class="iconfont icon-list list"></text>
+    </view>
   </view>
   <view class="kindImg hotSell">
     <view class="hotBB">

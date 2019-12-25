@@ -1,15 +1,20 @@
 {
   "pages": [
-    "pages/explore/explore",
-    "pages/science/science",
     "pages/index/index",
+    "pages/search/search",
+    "pages/science/science",
+    "pages/explore/explore",
     "pages/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#21272e",
     "navigationBarTitleText": "麓山亭",
-    "navigationBarTextStyle": "white"
+    "navigationBarTextStyle": "white",
+    "backgroundColor":"#2a313a",
+    "enablePullDownRefresh":true,
+    "pageOrientation":"auto"
+
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json",

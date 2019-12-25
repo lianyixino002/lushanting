@@ -34,6 +34,13 @@
       "unicode_decimal": 58886
     },
     {
+      "icon_id": "4187292",
+      "name": "删除",
+      "font_class": "shanchu",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
       "icon_id": "5327490",
       "name": "方形2",
       "font_class": "fangxing",

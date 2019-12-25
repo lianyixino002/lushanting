@@ -1,0 +1,50 @@
+.indexOuter{
+  height: 1500rpx;
+}
+
+.indexOuter .search {
+  width: 545rpx;
+}
+
+.indexOuter .search input {
+  width: 450rpx;
+}
+.indexOuter .kindImg {
+  border: 0;
+}
+.indexOuter .esc {
+  color: #fff;
+  line-height: 100rpx;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.indexOuter .kindImg.newBook .ki {
+  width: 192rpx;
+  margin-right: 40rpx;
+}
+
+.indexOuter .kindImg.newBook .ki image {
+  width: 192rpx;
+  height: 296rpx;
+}
+.indexOuter .nav{
+  padding: 0 50rpx;
+  color: #fff;
+  font-size: 34rpx;
+  margin-bottom: 34rpx;
+}
+.indexOuter .nav .shanchu{
+  float: right;
+  color: #71768c;
+  font-size: 33rpx;
+  line-height: 48rpx;
+}
+.indexOuter .history .hot{
+  padding: 0;
+  border: 0;
+}
+.indexOuter .history .hot .cir{
+  background-color: #45485b;
+  color: #fff;
+}

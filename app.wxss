@@ -5,6 +5,31 @@
   background-color: #21272e;
 }
 
+.indexOuter .search {
+  background-color: #2d353d;
+  color: #9da3b4;
+  font-size: 29rpx;
+  margin: 0 50rpx;
+  border-radius: 50rpx;
+  position: relative;
+  display: inline-block;
+}
+
+.indexOuter .search .chakan {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 100rpx;
+  margin-left: 30rpx;
+}
+
+.indexOuter .search input {
+  /* display: inline-block; */
+  margin-left: 45px;
+  height: 100rpx;
+  width: 550rpx;
+}
+
 .container {
   height: 100%;
   display: flex;
@@ -46,7 +71,6 @@
   display: block;
   text-align: center;
 }
-
 
 .indexOuter .kindImg .hotBB {
   background-color: #2b323b;
@@ -110,4 +134,100 @@
   right: 30rpx;
   color: #969baf;
   font-size: 35rpx;
+}
+
+.indexOuter .kindImg .kind {
+  color: #9da3b4;
+  margin-right: 50rpx;
+  line-height: 140rpx;
+  padding-top: 20rpx;
+}
+
+.indexOuter .kindImg .kind .kindOf {
+  color: #fff;
+  font-size: 33rpx;
+}
+
+.indexOuter .kindImg .kind .lookAll {
+  float: right;
+  font-size: 25rpx;
+}
+
+.indexOuter .kindImg .kind .lookAll .you {
+  font-size: 25rpx;
+}
+
+.indexOuter .kindImg {
+  /* padding-bottom: 57rpx; */
+  border-bottom: 2rpx solid #2f343c;
+  margin-left: 50rpx;
+}
+
+/* .indexOuter .author {
+  padding-top: 57rpx;
+} */
+
+.indexOuter .kindImg .ki {
+  width: 160rpx;
+  color: #fff;
+  display: inline-block;
+  margin-right: 23rpx;
+  margin-bottom: 60rpx;
+}
+
+.indexOuter .kindImg .ki .it {
+  font-size: 26rpx;
+}
+
+.indexOuter .kindImg .ki .au {
+  display: block;
+  font-size: 22rpx;
+  color: #5d637c;
+  margin-top: 10rpx;
+}
+
+.indexOuter .kindImg .ki.four {
+  width: 129rpx;
+}
+
+.indexOuter .kindImg .ki image {
+  width: 160rpx;
+  height: 160rpx;
+  margin-bottom: 15rpx;
+}
+
+.indexOuter .kindImg.newBook .ki {
+  width: 192rpx;
+  margin-right: 40rpx;
+}
+
+.indexOuter .kindImg.newBook .ki image {
+  width: 192rpx;
+  height: 296rpx;
+}
+
+.indexOuter .hot {
+  margin-left: 50rpx;
+  border-bottom: 2rpx solid #2f343c;
+  padding-top: 71rpx;
+  padding-right: 50rpx;
+}
+
+.indexOuter .hot .hotSear {
+  display: block;
+  font-size: 34rpx;
+  color: #fff;
+  margin-bottom: 50rpx;
+}
+
+.indexOuter .hot .cir {
+  line-height: 50rpx;
+  border-radius: 25rpx;
+  padding: 0 30rpx;
+  font-size: 22rpx;
+  margin-right: 30rpx;
+  margin-bottom: 25rpx;
+  display: inline-block;
+  /* color: #f54d82; */
+  border: 2rpx solid transparent;
 }

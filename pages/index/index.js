@@ -52,8 +52,16 @@ Page({
     return '#' + r + g + b;
     // console.log('#' + r + g + b);
   },
-
-
+  jumpScience:function(){
+    wx.navigateTo({
+      url: '../science/science',
+    });
+  },
+  jumpSearch:function(){
+    wx.navigateTo({
+      url: '../search/search',
+    })
+  },
   //事件处理函数
   onLoad: function() {
     // function rundomcolor() {

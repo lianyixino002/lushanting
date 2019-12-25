@@ -1,20 +1,22 @@
 <view class="indexOuter">
   <view class="topNav">
-    <text class="iconfont icon-jiangbei" bindtap="rundomcolor"></text>
-    <text class="iconfont icon-list list"></text>
+    <text class="iconfont icon-jiangbei"></text>
+    <view class="icon">
+      <text class="iconfont icon-list list"></text>
+    </view>
   </view>
-  <view class="search">
+  <view class="search" bindtap="jumpSearch">
     <text class="iconfont icon-chakan chakan"></text>
     <input type="text" placeholder="搜索"></input>
   </view>
   <view class="kindImg">
-    <view class="kind">
+    <view class="kind"> 
       <text class="kindOf">分类排行</text>
-      <text class="lookAll">查看全部 <text class="iconfont icon-you you"></text></text>
+      <text class="lookAll">查看全部<text class="iconfont icon-you you"></text></text>
     </view>
     <view class="ki one">
-      <image src="../../assets/images/kind1.png"></image>
-      <text class="it">科幻</text>
+      <image src="../../assets/images/kind1.png" bindtap="jumpScience"></image>
+      <text class="it" bindtap="jumpScience">科幻</text>
     </view>
     <view class="ki">
       <image src="../../assets/images/kind2.png"></image>

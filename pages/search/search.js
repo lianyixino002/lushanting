@@ -1,4 +1,4 @@
-// pages/science/science.js
+// pages/search/search.js
 Page({
 
   /**
@@ -9,7 +9,7 @@ Page({
   },
   goBack:function(){
     wx.navigateBack({
-      
+      delta:1
     })
   },
   /**

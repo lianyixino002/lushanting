@@ -1,0 +1,39 @@
+<view class="indexOuter">
+  <view class="search">
+    <text class="iconfont icon-chakan chakan"></text>
+    <input type="text" placeholder="搜索" auto-focus="true"></input>
+  </view>
+  <text class="esc" bindtap="goBack">取消</text>
+  <view class="kindImg newBook">
+    <view class="kind">
+      <text class="kindOf">热门搜索</text>
+      <text class="lookAll">查看全部 <text class="iconfont icon-you you"></text></text>
+    </view>
+    <view class="ki one">
+      <image src="../../assets/images/book1.png"></image>
+      <text class="it">三体·死神永生</text>
+      <text class="au">刘慈欣</text>
+    </view>
+    <view class="ki one">
+      <image src="../../assets/images/book2.png"></image>
+      <text class="it">人类简史</text>
+      <text class="au">尤瓦尔·郝拉利</text>
+    </view>
+    <view class="ki one">
+      <image src="../../assets/images/book3.png"></image>
+      <text class="it">徐三观卖血记</text>
+      <text class="au">余华</text>
+    </view>
+  </view>
+  <view class="history">
+    <view class="nav">搜索历史
+      <text class="iconfont icon-shanchu shanchu"></text>
+    </view>
+    <view class="hot">
+      <text class=" cir pai">艺术设计</text>
+      <text class=" cir pai">自由人像雕塑</text>
+      <text class=" cir pai">人文环境</text>
+    </view>
+  </view>
+
+</view>
