@@ -27,6 +27,27 @@
       "unicode_decimal": 59000
     },
     {
+      "icon_id": "827650",
+      "name": "评论",
+      "font_class": "pinglun",
+      "unicode": "e664",
+      "unicode_decimal": 58980
+    },
+    {
+      "icon_id": "866512",
+      "name": "填写",
+      "font_class": "tianxie",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "1206343",
+      "name": "分享",
+      "font_class": "fenxiang",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
       "icon_id": "1759088",
       "name": "查看",
       "font_class": "chakan",
@@ -62,11 +83,32 @@
       "unicode_decimal": 58976
     },
     {
+      "icon_id": "7791022",
+      "name": "书籍",
+      "font_class": "shuji",
+      "unicode": "e7ef",
+      "unicode_decimal": 59375
+    },
+    {
+      "icon_id": "8889865",
+      "name": "xin",
+      "font_class": "xin",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
       "icon_id": "10268541",
       "name": "更多服务",
       "font_class": "gengduofuwu",
       "unicode": "e679",
       "unicode_decimal": 59001
+    },
+    {
+      "icon_id": "10635171",
+      "name": "五星-实心",
+      "font_class": "solid-star",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
     }
   ]
 }

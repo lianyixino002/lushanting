@@ -1,0 +1,81 @@
+<view class="indexOuter">
+  <view class="topNav">
+    <text class="iconfont icon-icon-arrow-left4 left" bindtap="goBack"></text>
+    <text class="content">科幻</text>
+    <view class="icon">
+      <text class="iconfont icon-list list"></text>
+    </view>
+  </view>
+  <view class="bookAll">
+    <image src="../../assets/images/bookDetail.png"></image>
+    <view class="outer">
+      <text class="name">三体：死神永生</text>
+      <text class="author">作者：刘慈欣</text>
+      <text class="content">刘慈欣创作的系列长篇科幻小说地球往事三部曲的第三部作品... </text>
+      <text class="iconfont icon-solid-star star"></text>
+      <text class="iconfont icon-solid-star star"></text>
+      <text class="iconfont icon-solid-star star"></text>
+      <text class="iconfont icon-solid-star star"></text>
+      <text class="iconfont icon-solid-star star"></text>
+      <text class="score"> 5.0</text>
+    </view>
+  </view>
+  <view class="function">
+    <view class="box" bindtap="coll">
+      <text class="{{ collection ? 'iconfont icon-xin xin icon':'iconfont icon-xin xin icon col' }}"></text>
+
+      <text class="font">收藏</text>
+    </view>
+    <view class="box">
+      <text class="iconfont icon-fenxiang fenxiang icon"></text>
+      <text class="font">分享</text>
+    </view>
+    <view class="box">
+      <text class="iconfont icon-shuji shuji icon"></text>
+      <text class="font">放入书架</text>
+    </view>
+
+  </view>
+  <view class="intro">
+    <text class="detail">详情</text>
+    <text class="content">与三体文明的战争使人类第-次看到了宇宙黑暗的真相，地球文明像一个恐惧的孩子，熄灭了寻友的篝火在暗夜中发抖。自以为历经沧桑，其实刚刚蹒跚学步;自以为悟出了生存竞争的秘密，其实还远没有竞争的资格</text>
+  </view>
+  <view class="list">
+    <text class="look">查看章节</text>
+    <text class="iconfont icon-you you"></text>
+  </view>
+  <view class="comment">
+    <view class="nav">
+      <text class="com">评论</text>
+      <text class="many">215条评论</text>
+      <text class="iconfont icon-tianxie tianxie"></text>
+    </view>
+    <view class="main">
+      <view class="head">
+        <image src="../../assets/images/bookDetailUser.png"></image>
+      </view>
+      <view class="detail">
+        <view class="user">你个废物</view>
+        <text class="coms">大刘塑造的女性都具有明显的圣母特质，但是本质，上弱爆了。叶是文革的毒瘤，庄是定制禁脔，程最经典站在圣母和傻逼的微笑曲线上。大刘塑造的男性都带有明显的缺陷但本质上极端人性化。-身痞气的小人物大史，最高情商让他活得最明白;罗辑的荒唐和不羁让他成了救世主，但也决定了他必不能善终;软弱怯懦固执的云天明，也并无理由因为慷慨和运气就得到爱啊。但我真心理解这样的人，这样的性格，这样的命运。</text>
+
+        <view class="outer">
+          <text class="time">12-04 21:20</text>
+          <view class="xinping">
+            <view class="xinshu" bindtap="changeC">
+              <text class="{{ change ? 'iconfont icon-xin xin changeC':'iconfont icon-xin xin' }}"></text>
+              <text class="count">134</text>
+            </view>
+            <view class="xinshu pingshu">
+              <text class="iconfont icon-pinglun xin"></text>
+              <text class="count">89</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="bottom">
+  <view class="try btu">试看</view>
+  <view class="pay btu">购买</view>
+</view>

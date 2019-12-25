@@ -12,6 +12,11 @@ Page({
       delta:1
     })
   },
+  jumpBD:function(){
+    wx.navigateTo({
+      url: '../bookDetail/bookDetail',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

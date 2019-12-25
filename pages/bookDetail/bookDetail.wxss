@@ -1,0 +1,267 @@
+.indexOuter {
+  padding-left: 50rpx;
+}
+.indexOuter .topNav .list{
+  border: 0;
+
+}
+.indexOuter .topNav .content {
+  color: #21272e;
+}
+
+.indexOuter .topNav .list {
+  color: #21272e;
+}
+
+.indexOuter .topNav .left {
+  left: 0;
+}
+
+.indexOuter .bookAll {
+  position: relative;
+  padding-bottom: 65rpx;
+  border-bottom: 2px solid #353946;
+}
+
+.indexOuter .bookAll image {
+  width: 215rpx;
+  height: 320rpx;
+  float: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.indexOuter .bookAll .outer {
+  width: 400rpx;
+  margin-left: 250rpx;
+  color: #fff;
+  display: inline-block;
+  padding-top: 30rpx;
+  padding-bottom: 12rpx;
+}
+
+.indexOuter .bookAll .outer text {
+  display: block;
+}
+
+.indexOuter .bookAll .outer .name {
+  font-size: 45rpx;
+  color: #fff;
+  margin-bottom: 25rpx;
+}
+
+.indexOuter .bookAll .outer .author {
+  font-size: 29rpx;
+  color: #828d9a;
+  margin-bottom: 20rpx;
+}
+
+.indexOuter .bookAll .outer .content {
+  font-size: 25rpx;
+  color: #868dab;
+  line-height: 35rpx;
+}
+
+.indexOuter .bookAll .outer .star {
+  display: inline-block;
+  color: #fb6894;
+  font-size: 28rpx;
+  margin-top: 30rpx;
+  margin-left: 4rpx;
+}
+
+.indexOuter .bookAll .outer .score {
+  display: inline-block;
+  color: #ffce44;
+  font-size: 35rpx;
+  margin-left: 15rpx;
+}
+
+.indexOuter .function {
+  padding: 45rpx 0;
+  padding-right: 50rpx;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #353946;
+}
+
+.indexOuter .function .box {
+  display: inline-block;
+}
+
+.indexOuter .function .box .font {
+  margin-left: 30rpx;
+  color: #fff;
+  font-size: 28rpx;
+}
+
+.indexOuter .function .box .icon {
+  font-size: 38rpx;
+  color: #70758b;
+}
+
+.indexOuter .function .box .icon.xin {
+  color: #e9392f;
+}
+
+.indexOuter .intro {
+  padding-top: 55rpx;
+  padding-right: 55rpx;
+  padding-bottom: 90rpx;
+  border-bottom: 2px solid #353946;
+}
+
+.indexOuter .intro .detail {
+  color: #fff;
+  display: block;
+  font-size: 34rpx;
+  margin-bottom: 35rpx;
+}
+
+.indexOuter .intro .content {
+  color: #868dab;
+  font-size: 26rpx;
+  line-height: 30rpx;
+}
+
+.indexOuter .list {
+  padding: 45rpx 0;
+  font-size: 34rpx;
+  color: #fff;
+  border-bottom: 2px solid #353946;
+  padding-right: 50rpx;
+}
+
+.indexOuter .list .you {
+  float: right;
+  color: #9295a9;
+}
+
+.indexOuter .comment .nav {
+  padding: 55rpx 0;
+}
+
+.indexOuter .comment .nav .com {
+  color: #fff;
+  font-size: 33rpx;
+  margin-right: 18rpx;
+}
+
+.indexOuter .comment .nav .many {
+  font-size: 25rpx;
+  color: #007aff;
+  /* vertical-align: top; */
+  line-height: 44rpx;
+}
+
+.indexOuter .comment .nav .tianxie {
+  float: right;
+  color: #fff;
+  margin-right: 37rpx;
+  font-size: 35rpx;
+}
+
+.indexOuter .comment .main {
+  position: relative;
+  padding-bottom: 200rpx;
+  border-bottom: 2px solid #353946;
+
+}
+
+.indexOuter .comment .main .head {
+  width: 60rpx;
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.indexOuter .comment .main .detail {
+  margin-left: 90rpx;
+  margin-right: 65rpx;
+  padding-top: 10rpx;
+}
+
+.indexOuter .comment .main image {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.indexOuter .comment .main .detail .user {
+  font-size: 26rpx;
+  color: #fff;
+  margin-bottom: 20rpx;
+}
+
+.indexOuter .comment .main .detail .coms {
+  font-size: 23rpx;
+  color: #868dab;
+  display: inline-block;
+  margin-bottom: 30rpx;
+}
+
+.indexOuter .comment .main .detail .outer {
+  color: #71768c;
+  /* line-height: 32rpx; */
+  vertical-align: top;
+}
+
+.indexOuter .comment .main .detail .outer .time {
+  font-size: 26rpx;
+  color: #656a7b;
+}
+
+.indexOuter .comment .main .detail .outer .xinping {
+  /* display: inline-block; */
+  float: right;
+}
+
+.indexOuter .comment .main .detail .outer .xinshu {
+  display: inline-block;
+  margin-left: 30rpx;
+}
+
+.indexOuter .comment .main .detail .outer .xinshu .xin {
+  font-size: 25rpx;
+}
+
+.indexOuter .comment .main .detail .outer .xinshu .count {
+  font-size: 29rpx;
+  margin-left: 14rpx;
+}
+
+.bottom{
+  height: 156rpx;
+  background-color: #373a49;
+  padding: 30rpx 50rpx;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+}
+.bottom .btu{
+  height: 94rpx;
+  line-height: 94rpx;
+  text-align: center;
+  color: #fff;
+  border-radius: 47rpx;
+  display: inline-block;
+  font-size: 26rpx;
+}
+.bottom .try{
+  width: 215rpx;
+  background-color: #9295a9;
+}
+.bottom .pay{
+  width: 405rpx;
+  background-color: #fb6894;
+  margin-left: 33rpx;
+
+}
+.changeC{
+  color: #e9392f;
+}
+.col{
+  color: #70758b !important;
+}

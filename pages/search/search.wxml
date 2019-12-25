@@ -9,7 +9,7 @@
       <text class="kindOf">热门搜索</text>
       <text class="lookAll">查看全部 <text class="iconfont icon-you you"></text></text>
     </view>
-    <view class="ki one">
+    <view class="ki one" bindtap="jumpBD">
       <image src="../../assets/images/book1.png"></image>
       <text class="it">三体·死神永生</text>
       <text class="au">刘慈欣</text>
