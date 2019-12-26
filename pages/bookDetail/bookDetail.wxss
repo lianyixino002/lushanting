@@ -269,8 +269,11 @@
   position: fixed;
   top: 0;
   left: 0;
+  display: none;
 }
-
+.putinShow{
+  display: block;
+}
 .putin .pOuter {
   width: 425rpx;
   height: 645rpx;

@@ -6,7 +6,15 @@ Page({
    */
   data: {
     change: false,
-    collection: true
+    collection: true,
+    shujia: false,
+
+  },
+  showPutin: function() {
+    this.setData({
+      shujia: !this.data.shujia,
+    })
+    console.log(this.data.shujia);
   },
   goBack: function() {
     wx.navigateBack({
@@ -14,34 +22,15 @@ Page({
     })
   },
   changeC: function() {
-    if (this.data.change == true) {
-      this.setData({
-        change: false,
-      })
-      return 0;
-    }
-    if (this.data.change == false) {
-      this.setData({
-        change: true,
-      })
-      return 0;
-    }
+    this.setData({
+      change: !this.data.change,
+    })
 
   },
   coll: function() {
-    if (this.data.collection == true) {
-      this.setData({
-        collection: false,
-      })
-      return 0;
-    }
-    if (this.data.collection == false) {
-      this.setData({
-        collection: true,
-      })
-      return 0;
-    }
-    console.log(1);
+    this.setData({
+      collection: !this.data.collection,
+    })
   },
 
   /**
