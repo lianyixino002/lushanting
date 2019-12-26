@@ -10,7 +10,7 @@
     <input type="text" placeholder="搜索"></input>
   </view>
   <view class="kindImg">
-    <view class="kind"> 
+    <view class="kind">
       <text class="kindOf">分类排行</text>
       <text class="lookAll">查看全部<text class="iconfont icon-you you"></text></text>
     </view>
@@ -101,6 +101,10 @@
     <block wx:for="{{ border }}" wx:key="index">
       <text class="cir pai" style="color:{{ border[index].color }};border-color:{{ border[index].color }}">{{ border[index].text }}</text>
     </block>
+    <!-- <block wx:for="{{ border }}" wx:key="index">
+      <text class="cir pai" style="color:{{ rundomcolor() }};border-color:{{ rundomcolor() }}">{{ border[index].text }}</text>
+    </block> -->
+
     <!-- <text class="cir zhi">职场热门</text>
     <text class="cir du">都市言情</text>
     <text class="cir ha">哈弗大学经济管理类</text>

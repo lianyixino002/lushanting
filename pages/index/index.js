@@ -24,22 +24,23 @@ Page({
     ],
     border: [{
         text: "2018排行榜",
-        color: '#f54d82'
+        color: ''
       },
       {
         text: "职场热门",
-        color: '#59b080'
+        color: ''
       }, {
         text: "都市言情",
-        color: '#ec575e'
+        color: ''
       }, {
         text: "哈弗大学经济管理类",
-        color: '#9060e8'
+        color: ''
       }, {
         text: "领导才能",
-        color: '#ded658'
+        color: ''
       },
     ],
+
   },
   rundomcolor: function() {
     var r = parseInt(Math.floor(Math.random() * 255), 10).toString(16);
@@ -48,38 +49,30 @@ Page({
     g = g.length == 2 ? g = g : g = '0' + g;
     var b = parseInt(Math.floor(Math.random() * 255), 10).toString(16);
     b = b.length == 2 ? b = b : b = '0' + b;
-    // var rgb = 'rgb(' + r + ',' + g + ',' + b + ')';
     return '#' + r + g + b;
-    // console.log('#' + r + g + b);
   },
-  jumpScience:function(){
+  jumpScience: function() {
     wx.navigateTo({
       url: '../science/science',
     });
   },
-  jumpSearch:function(){
+  jumpSearch: function() {
     wx.navigateTo({
       url: '../search/search',
     })
   },
-  jumpBD:app.jumpBD,
+  jumpBD: app.jumpBD,
   //事件处理函数
-  onLoad: function() {
-    // function rundomcolor() {
-    //   var r = parseInt(Math.floor(Math.random() * 255), 10).toString(16);
-    //   r = r.length == 2 ? r = r : r = '0' + r;
-    //   var g = parseInt(Math.floor(Math.random() * 255), 10).toString(16);
-    //   g = g.length == 2 ? g = g : g = '0' + g;
-    //   var b = parseInt(Math.floor(Math.random() * 255), 10).toString(16);
-    //   b = b.length == 2 ? b = b : b = '0' + b;
-    //   // var rgb = 'rgb(' + r + ',' + g + ',' + b + ')';
-    //   return r + g + b;
-    //   // console.log('#' + r + g + b);
-    // };
-    // this.setData({
-    //   color:rundomcolor(),
-    // })
-    // console.log(this.color);
+  onReady: function() {
+    let borders = this.data.border;
+    for (let i = 0; i < 5; i++) {
+      let a = this.rundomcolor();
+      console.log(a);
+      borders[i].color = a;
+      this.setData({
+        border: borders,
+      })
+    }
   },
   getUserInfo: function() {}
 })

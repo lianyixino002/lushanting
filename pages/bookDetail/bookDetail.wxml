@@ -79,3 +79,10 @@
   <view class="try btu">试看</view>
   <view class="pay btu">购买</view>
 </view>
+<view class="putin">
+  <view class="pOuter">
+    <image src="../../assets/images/bookDetail.png"></image>
+    <text class="puten">已经将这本书放入个人书架</text>
+    <view class="ok">好的</view>
+  </view>
+</view>
