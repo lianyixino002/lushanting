@@ -1,0 +1,29 @@
+<view class="indexOuter">
+  <block wx:for="{{ comment }}" wx:key=" index ">
+    <view class="comment">
+      <view class="main">
+        <view class="head">
+          <image src="{{ item.imgPath }}"></image>
+        </view>
+        <view class="detail">
+          <view class="user">{{ item.userName }}</view>
+          <text class="coms">{{ item.content }}</text>
+
+          <view class="outer">
+            <text class="time">{{ item.time }}</text>
+            <view class="xinping">
+              <view class="xinshu" bindtap="changeColor">
+                <text class="{{ comment[index].dian ? 'iconfont icon-xin xin changeC':'iconfont icon-xin xin' }}"></text>
+                <text class="count">{{ item.xin }}</text>
+              </view>
+              <view class="xinshu pingshu">
+                <text class="iconfont icon-pinglun xin"></text>
+                <text class="count">{{ item.ping }}</text>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </block>
+</view>

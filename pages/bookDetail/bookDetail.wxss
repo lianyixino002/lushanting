@@ -182,6 +182,7 @@
   margin-left: 90rpx;
   margin-right: 65rpx;
   padding-top: 10rpx;
+  border-bottom: 2px solid #353946;
 }
 
 .indexOuter .comment .main image {
@@ -204,9 +205,10 @@
 
 .indexOuter .comment .main .detail .outer {
   color: #71768c;
-  /* line-height: 32rpx; */
-  vertical-align: top;
+  /* vertical-align: top; */
+  padding-bottom: 30rpx;
 }
+
 
 .indexOuter .comment .main .detail .outer .time {
   font-size: 26rpx;
@@ -327,7 +329,8 @@
   bottom: 0;
   display: none;
 }
-.shareShow{
+
+.shareShow {
   display: block;
 }
 
@@ -353,7 +356,6 @@
   padding: 0 95rpx;
   display: flex;
   justify-content: space-between;
-  
 }
 
 .share .img image {

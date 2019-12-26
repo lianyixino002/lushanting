@@ -1,0 +1,9 @@
+@import '../bookDetail/bookDetail.wxss';
+.indexOuter .comment .main{
+  padding-top: 30rpx;
+  border: 0;
+  padding-bottom: 0;
+}
+.indexOuter .comment .main .head{
+  margin-top: 30rpx;
+}

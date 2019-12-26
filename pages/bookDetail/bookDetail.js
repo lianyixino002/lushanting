@@ -10,6 +10,11 @@ Page({
     shujia: false,
     share: false,
   },
+  jumpCommon:function(){
+    wx.navigateTo({
+      url: '../common/common',
+    })
+  },
   showPutin: function() {
     this.setData({
       shujia: !this.data.shujia,

@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/common/common",
     "pages/bookDetail/bookDetail",
     "pages/index/index",
     "pages/search/search",

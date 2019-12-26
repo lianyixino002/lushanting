@@ -47,12 +47,12 @@
   <view class="comment">
     <view class="nav">
       <text class="com">评论</text>
-      <text class="many">215条评论</text>
+      <text class="many" bindtap="jumpCommon">215条评论</text>
       <text class="iconfont icon-tianxie tianxie"></text>
     </view>
     <view class="main">
       <view class="head">
-        <image src="../../assets/images/bookDetailUser.png"></image>
+        <image src="../../assets/images/bookDetailUser1.png"></image>
       </view>
       <view class="detail">
         <view class="user">你个废物</view>
