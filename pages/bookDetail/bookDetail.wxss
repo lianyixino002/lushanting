@@ -265,15 +265,17 @@
 .putin {
   width: 750rpx;
   height: 1600rpx;
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0, 0, 0, 0.4);
   position: fixed;
   top: 0;
   left: 0;
   display: none;
 }
-.putinShow{
+
+.putinShow {
   display: block;
 }
+
 .putin .pOuter {
   width: 425rpx;
   height: 645rpx;
@@ -283,7 +285,7 @@
   position: absolute;
   top: 200rpx;
   left: 50%;
-  transform: translate3d(-50%,0,0);
+  transform: translate3d(-50%, 0, 0);
   /* opacity: 1 !important; */
 }
 
@@ -293,6 +295,7 @@
   display: block;
   margin: 0 auto;
 }
+
 .putin .pOuter .puten {
   width: 323rpx;
   color: #fff;
@@ -302,6 +305,7 @@
   padding: 54rpx 0rpx 70rpx;
   margin: 0 auto;
 }
+
 .putin .pOuter .ok {
   width: 100%;
   height: 94rpx;
@@ -313,7 +317,50 @@
   font-size: 32rpx;
 }
 
+.share {
+  width: 100%;
+  height: 330rpx;
+  background-color: #363945;
+  box-sizing: border-box;
+  padding-top: 130rpx;
+  position: fixed;
+  bottom: 0;
+  display: none;
+}
+.shareShow{
+  display: block;
+}
 
+.share .exit {
+  /* padding: 30rpx 50rpx 60rpx; */
+  width: 50rpx;
+  height: 50rpx;
+  background-color: #1b1f24;
+  /* margin-right: 50rpx; */
+  border-radius: 25rpx;
+  overflow: hidden;
+  position: absolute;
+  top: 30rpx;
+  right: 50rpx;
+}
+
+.share .exit text {
+  color: #fff;
+  font-size: 23rpx;
+}
+
+.share .img {
+  padding: 0 95rpx;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.share .img image {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 40rpx;
+}
 
 .changeC {
   color: #e9392f;

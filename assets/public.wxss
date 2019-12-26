@@ -1,0 +1,267 @@
+/* @import "../font/iconfont.css"; */
+
+html {
+    font-size: 50px;
+}
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-color: #fff;
+    font-size: 15px;
+}
+
+/* =======================reset over=================== */
+
+/* 1200px居中块 */
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* =======================1200px居中块 over=================== */
+
+/* 绿色小按钮 */
+.littleButton {
+    width: 160px;
+    height: 32px;
+    /* background-color: #83b900;
+    color: white; */
+    font-size: 15px;
+    text-align: center;
+    line-height: 32px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    display: inline-block;
+
+}
+
+/* .join a {
+    display: block;
+    color: white;
+
+} */
+
+/* =======================绿色小按钮 over=================== */
+
+/* nav导航栏 */
+.comment-nav {
+    line-height: 47px;
+    overflow: hidden;
+    display: block;
+}
+
+.comment-nav li {
+    float: left;
+    text-align: center;
+    margin-right: 22px;
+}
+
+.comment-nav a {
+    color: #252525;
+    height: 47px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.comment-nav a.active {
+    color: #252525;
+    /* font-weight: bold; */
+    border-bottom: 3px solid #9bc604;
+}
+
+.comment-nav a:hover {
+    color: #252525;
+    font-weight: bold;
+}
+
+/* =======================comment-nav over=================== */
+
+/* 清除浮动 */
+.clearFloat::after {
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+
+/* =======================清除浮动 over=================== */
+
+/* 水平居中 */
+.xCenter {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate3d(-50%, 0, 0);
+}
+
+/* 垂直居中 */
+.yCenter {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate3d(0, -50%, 0);
+}
+
+/* 水平垂直居中 */
+.xyCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+/* =======================水平垂直居中 over=================== */
+/* play播放小按钮 */
+.icon-play {
+    box-sizing: border-box;
+    position: relative;
+    width: 43px;
+    height: 43px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    bottom: -7px;
+}
+
+.icon-play:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: -6px;
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-left: 18px solid #fff;
+}
+
+/* =======================icon-play over =================== */
+/* 单行文本溢出 */
+.textClearFloat {
+    width: 500px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* 多行文本溢出 */
+.textsClearFloat {
+    width: 500px;
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+/* =======================文本溢出 over=================== */
+
+
+
+
+
+
+
+
+
+
+
+
+/* header */
+header {
+    height: 90px;
+}
+
+header .logo {
+    float: left;
+    margin-top: 18px;
+    margin-right: 105px;
+}
+
+header .navigator {
+    line-height: 90px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+header .navigator li {
+    float: left;
+    text-align: center;
+    margin: 0 10px;
+    width: 80px;
+}
+
+header .navigator a {
+    color: #252525;
+    display: block;
+    height: 85px;
+    box-sizing: border-box;
+}
+
+header .navigator a.active {
+    color: #252525;
+    font-weight: bold;
+    border-bottom: 3px solid #9bc604;
+}
+
+header .navigator a:hover {
+    color: #252525;
+    font-weight: bold;
+}
+
+header .login {
+    float: right;
+    padding-right: 28px;
+    padding-top: 34px;
+}
+
+header .login a {
+    color: #999;
+    margin: 0 12px;
+}
+
+/* =======================header over=================== */
+
+
+/* .footer */
+.footer {
+    /* background: #000; */
+    padding-bottom: 20px;
+}
+
+.footer p {
+    color: #a3a3a3;
+    text-align: center;
+}
+
+.footer p a {
+    color: #a3a3a3;
+}
+
+.footer p:first-child {
+    padding-top: 39px;
+}
+
+.footer p:last-child {
+    margin-top: 18px;
+}
+
+/* =======================.footer over=================== */

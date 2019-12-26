@@ -1,6 +1,6 @@
 /**app.wxss**/
 @import './assets/font/iconfont.wxss';
-
+@import './assets/public.wxss';
 .indexOuter {
   background-color: #21272e;
 }

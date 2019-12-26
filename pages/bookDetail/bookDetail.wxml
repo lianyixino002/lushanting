@@ -26,7 +26,7 @@
 
       <text class="font">收藏</text>
     </view>
-    <view class="box">
+    <view class="box" bindtap="showShare">
       <text class="iconfont icon-fenxiang fenxiang icon"></text>
       <text class="font">分享</text>
     </view>
@@ -79,10 +79,22 @@
   <view class="try btu">试看</view>
   <view class="pay btu">购买</view>
 </view>
-<view class="putin" class="{{ shujia ? 'putin putinShow' : 'putin'}}">
+<view class="{{ shujia ? 'putin putinShow' : 'putin'}}">
   <view class="pOuter">
     <image src="../../assets/images/bookDetail.png"></image>
     <text class="puten">已经将这本书放入个人书架</text>
     <view class="ok" bindtap="showPutin">好的</view>
   </view>
-</view> 
+</view>
+<view class="{{ share ? 'share shareShow' : 'share' }}">
+  <text></text>
+  <view class="exit" bindtap="showShare">
+    <text class="iconfont icon-guanbi xyCenter"></text>
+  </view>
+  <view class="img">
+    <image src="../../assets/images/share1.png"></image>
+    <image src="../../assets/images/share2.png"></image>
+    <image src="../../assets/images/share3.png"></image>
+    <image src="../../assets/images/share4.png"></image>
+  </view>
+</view>

@@ -8,13 +8,17 @@ Page({
     change: false,
     collection: true,
     shujia: false,
-
+    share: false,
   },
   showPutin: function() {
     this.setData({
       shujia: !this.data.shujia,
     })
-    console.log(this.data.shujia);
+  },
+  showShare: function() {
+    this.setData({
+      share: !this.data.share,
+    })
   },
   goBack: function() {
     wx.navigateBack({

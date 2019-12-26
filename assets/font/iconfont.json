@@ -34,11 +34,25 @@
       "unicode_decimal": 58980
     },
     {
+      "icon_id": "834362",
+      "name": "关闭",
+      "font_class": "guanbi",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
       "icon_id": "866512",
       "name": "填写",
       "font_class": "tianxie",
       "unicode": "e632",
       "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "1185470",
+      "name": "qq",
+      "font_class": "qq",
+      "unicode": "e630",
+      "unicode_decimal": 58928
     },
     {
       "icon_id": "1206343",
