@@ -34,20 +34,21 @@ Page({
       },
     ]
   },
-  changeColor: function(e) {
-    console.log('aaa');
-    console.log(e);
-    // let comments = this.comment;
-    // comments[index].dian = !comments[index].dian;
-    // this.setData({
-    //   comment: comments,
-    // })
+  changeXin: function(e) {
+    // console.log(e.currentTarget.dataset.index);
+    let index = e.currentTarget.dataset.index;
+    // console.log(e);
+    let comments = this.data.comment;
+    comments[index].dian = !comments[index].dian;
+    this.setData({
+      comment:comments,
+    })
   },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function(options) {
-
+    
   },
 
   /**

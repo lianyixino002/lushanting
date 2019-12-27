@@ -1,5 +1,5 @@
 <view class="indexOuter">
-  <block wx:for="{{ comment }}" wx:key=" index ">
+  <block wx:for="{{ comment }}" wx:key="index">
     <view class="comment">
       <view class="main">
         <view class="head">
@@ -12,7 +12,7 @@
           <view class="outer">
             <text class="time">{{ item.time }}</text>
             <view class="xinping">
-              <view class="xinshu" bindtap="changeColor">
+              <view class="xinshu" bindtap="changeXin" data-index="{{index}}">
                 <text class="{{ comment[index].dian ? 'iconfont icon-xin xin changeC':'iconfont icon-xin xin' }}"></text>
                 <text class="count">{{ item.xin }}</text>
               </view>
