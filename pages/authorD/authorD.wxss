@@ -1,0 +1,78 @@
+@import '../my/my.wxss';
+.my .myHead .right .share{
+  float: left;
+}
+.my .myHead .right .share.guanzhu{
+  background-color: #478ce0;
+  color: #fff;
+  float: right;
+}
+
+.my .works .nav {
+  margin-top: 70rpx;
+}
+
+.my .works .nav .book {
+  font-size: 34rpx;
+  color: #fff;
+}
+
+.my .works .nav .count {
+  font-size: 23rpx;
+  color: #478ce0;
+  float: right;
+  margin-right: 50rpx;
+}
+
+.my .books {
+  padding-top: 60rpx;
+  padding-bottom: 50rpx;
+  border-bottom: 2rpx solid #2b323b;
+}
+
+.my .books image {
+  width: 168rpx;
+  height: 251rpx;
+  float: left;
+}
+
+.my .books .details {
+  margin-left: 200rpx;
+}
+
+.my .books .details .bn {
+  margin-top: 30rpx;
+  font-size: 33rpx;
+  color: #fff;
+}
+
+.my .books .details .star {
+  margin-top: 20rpx;
+}
+
+.my .books .details .star .iconStar {
+  font-size: 28rpx;
+  color: #fb6894;
+}
+
+.my .books .details .star .count {
+  font-size: 30rpx;
+  color: #ffce44;
+  margin-left: 10rpx;
+}
+
+.my .books .details .short {
+  font-size: 23rpx;
+  color: #999fb0;
+  line-height: 30rpx;
+  display: block;
+  margin-top: 15rpx;
+}
+
+.my .books .details .reading {
+  font-size: 23rpx;
+  margin-top: 24rpx;
+  color: #478ce0;
+  display: block;
+  padding-bottom: 20rpx;
+}

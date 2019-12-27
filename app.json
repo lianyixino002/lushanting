@@ -1,5 +1,8 @@
 {
   "pages": [
+    "pages/authorD/authorD",
+    "pages/authors/authors",
+    "pages/my/my",
     "pages/shelf/shelf",
     "pages/index/index",
     "pages/common/common",
@@ -42,7 +45,7 @@
         "selectedIconPath": "assets/images/shu1.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/my/my",
         "iconPath": "assets/images/my.png",
         "selectedIconPath": "assets/images/my1.png"
       }

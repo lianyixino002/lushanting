@@ -1,0 +1,136 @@
+.my {
+  background-color: #21272e;
+  padding-left: 50rpx;
+  padding-bottom: 200rpx;
+}
+
+.my .myHead {
+  padding-top: 20rpx;
+  overflow: hidden;
+  margin-bottom: 50rpx;
+}
+
+.my .myHead image {
+  width: 240rpx;
+  height: 240rpx;
+  float: left;
+}
+
+.my .myHead .right {
+  margin-left: 276rpx;
+  margin-right: 50rpx;
+}
+
+.my .myHead .right text.name {
+  color: #fff;
+  font-size: 41rpx;
+  display: block;
+  margin-top: 32rpx;
+}
+
+.my .myHead .right text.place {
+  color: #b5b7c5;
+  font-size: 26rpx;
+  display: block;
+}
+
+.my .myHead .right .share {
+  width: 180rpx;
+  color: #828597;
+  text-align: center;
+  line-height: 64rpx;
+  border: 2rpx solid #545d66;
+  border-radius: 10rpx;
+  float: right;
+  font-size: 25rpx;
+  margin-top: 40rpx;
+}
+
+.my .wNav {
+  height: 130rpx;
+  margin-right: 50rpx;
+  background-color: #2b323b;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40rpx;
+}
+
+.my .wNav .follow {
+  border-right: 2rpx solid #363c45;
+  padding: 0 69rpx;
+}
+
+.my .wNav .follow.like {
+  border: 0;
+}
+
+.my .wNav .follow text {
+  display: block;
+  text-align: center;
+}
+
+.my .wNav .follow .count {
+  color: #fff;
+  font-size: 33rpx;
+  margin-bottom: 10rpx;
+}
+
+.my .wNav .follow .context {
+  color: #75808d;
+  font-size: 27rpx;
+}
+
+.my .myInfor {
+  padding: 50rpx 0;
+  color: #dcdeea;
+  padding-right: 50rpx;
+  border-bottom: 2rpx solid #333c47;
+  vertical-align: middle;
+}
+
+.my .myInfor .right {
+  float: right;
+}
+
+.my .news .right {
+  width: 40rpx;
+  height: 40rpx;
+  font-size: 20rpx;
+  line-height: 40rpx;
+  text-align: center;
+  color: #fff;
+  background-color: #fb6894;
+  border-radius: 100%;
+}
+
+.my .myInfor.balance .right .count {
+  color: #fb6894;
+  font-size: 33rpx;
+}
+
+.my {
+}
+
+.my {
+}
+
+.my {
+}
+
+.my {
+}
+
+.my {
+}
+
+.my {
+}
+
+.my {
+}
+
+.my {
+}
+
+.my {
+}

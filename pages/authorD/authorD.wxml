@@ -1,0 +1,53 @@
+<view class="my">
+  <view class="myHead">
+    <image src="../../assets/images/authorDH.png"></image>
+    <view class="right">
+      <text class="name">田小康</text>
+      <text class="place">中国·保康</text>
+      <view class="share">
+        <text class="iconfont icon-fenxiang">  分享</text>
+      </view>
+      <view class="share guanzhu">
+        <text class="iconfont icon-jia">  关注</text>
+      </view>
+    </view>
+  </view>
+  <view class="wNav">
+    <view class="follow">
+      <text class="count">1286</text>
+      <text class="context">关注</text>
+    </view>
+    <view class="follow">
+      <text class="count">3368</text>
+      <text class="context">粉丝</text>
+    </view>
+    <view class="follow like">
+      <text class="count">6673</text>
+      <text class="context">喜欢</text>
+    </view>
+  </view>
+  <view class="works">
+    <view class="nav">
+      <text class="book">代表作</text>
+      <text class="count">总共三本书</text>
+    </view>
+  </view>
+  <block wx:for="{{ books }}" wx:key="index">
+    <view class="books">
+      <image src="{{ item.imgPath }}"></image>
+      <view class="details">
+        <text class="bn">{{ item.name }}</text>
+        <view class="star">
+          <text class="iconfont icon-solid-star iconStar"></text>
+          <text class="iconfont icon-solid-star iconStar"></text>
+          <text class="iconfont icon-solid-star iconStar"></text>
+          <text class="iconfont icon-solid-star iconStar"></text>
+          <text class="iconfont icon-solid-star iconStar"></text>
+          <text class="count ">{{ item.count }}</text>
+        </view>
+        <text class="short ">{{ item.short }}</text>
+        <text class="reading ">{{ item.reading }} 人阅读</text>
+      </view>
+    </view>
+  </block>
+</view>
