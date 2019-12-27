@@ -1,0 +1,29 @@
+<view class="indexOuter">
+  <view class="kindImg newBook reading">
+    <view class="kind">
+      <text class="kindOf">正在阅读</text>
+      <text class="lookAll">查看全部 <text class="iconfont icon-you you"></text></text>
+    </view>
+    <block wx:for="{{ reading }}" wx:key="index">
+      <view class="ki one" bindtap="jumpBD">
+        <image src="{{ item.imgPath }}"></image>
+        <text class="it">{{ item.bN }}</text>
+        <text class="au">{{ item.aN }}</text>
+      </view>
+    </block>
+  </view>
+  <view class="kindImg newBook">
+    <view class="kind">
+      <text class="kindOf">未读</text>
+      <text class="lookAll">查看全部 <text class="iconfont icon-you you"></text></text>
+    </view>
+    <block wx:for="{{ notRead }}" wx:key="index">
+      <view class="ki one" bindtap="jumpBD">
+        <image src="{{ item.imgPath }}"></image>
+        <text class="it">{{ item.bN }}</text>
+        <text class="au">{{ item.aN }}</text>
+      </view>
+    </block>
+  </view>
+
+</view>

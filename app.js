@@ -34,7 +34,54 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    reading: [{
+        imgPath: "../../assets/images/book1.png",
+        bN: '三体：死神永生',
+        aN: '刘慈欣'
+      },
+      {
+        imgPath: "../../assets/images/book2.png",
+        bN: '人类简史',
+        aN: '尤瓦尔·郝拉利'
+      },
+      {
+        imgPath: "../../assets/images/book3.png",
+        bN: '许三观卖血记',
+        aN: '余华'
+      },
+    ],
+    notRead: [{
+        imgPath: "../../assets/images/book1.png",
+        bN: '三体：死神永生',
+        aN: '刘慈欣'
+      },
+      {
+        imgPath: "../../assets/images/book2.png",
+        bN: '人类简史',
+        aN: '尤瓦尔·郝拉利'
+      },
+      {
+        imgPath: "../../assets/images/book3.png",
+        bN: '许三观卖血记',
+        aN: '余华'
+      }, {
+        imgPath: "../../assets/images/book1.png",
+        bN: '三体：死神永生',
+        aN: '刘慈欣'
+      },
+      {
+        imgPath: "../../assets/images/book2.png",
+        bN: '人类简史',
+        aN: '尤瓦尔·郝拉利'
+      },
+      {
+        imgPath: "../../assets/images/book3.png",
+        bN: '许三观卖血记',
+        aN: '余华'
+      },
+    ],
+
   },
   jumpBD: function() {
     wx.navigateTo({

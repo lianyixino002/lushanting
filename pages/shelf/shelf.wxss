@@ -1,0 +1,7 @@
+.indexOuter .newBook{
+  border: 0;
+}
+
+.indexOuter .newBook.reading .ki{
+  margin-bottom: 0;
+}

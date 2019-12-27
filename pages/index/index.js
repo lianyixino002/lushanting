@@ -40,6 +40,8 @@ Page({
         color: ''
       },
     ],
+    reading: app.globalData.reading,
+    notRead: app.globalData.notRead,
 
   },
   rundomcolor: function() {
