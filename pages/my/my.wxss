@@ -108,7 +108,13 @@
   font-size: 33rpx;
 }
 
-.my {
+.my .shezhi{
+  color: #fff;
+  display: block;
+  /* margin: 0 auto; */
+  margin-top: 30rpx;
+  font-size:40rpx; 
+  text-align: center;
 }
 
 .my {

@@ -139,6 +139,13 @@
       "unicode_decimal": 59375
     },
     {
+      "icon_id": "8622864",
+      "name": "shezhi",
+      "font_class": "shezhi",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
       "icon_id": "8889865",
       "name": "xin",
       "font_class": "xin",

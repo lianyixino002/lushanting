@@ -64,6 +64,8 @@ Page({
     })
   },
   jumpBD: app.jumpBD,
+  jumpAD:app.jumpAD,
+  jumpAS:app.jumpAS,
   //事件处理函数
   onReady: function() {
     let borders = this.data.border;

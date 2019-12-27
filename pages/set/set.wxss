@@ -1,0 +1,26 @@
+@import '../my/my.wxss';
+.my .myInfor .right .button{
+  width: 100rpx;
+  height: 60rpx;
+  background-color: #fb6894;
+  border-radius: 30rpx;
+  position: relative;
+  bottom: 10rpx;
+  padding: 2rpx;
+  box-sizing: border-box;
+}
+.my .myInfor .right .button .cir{
+  width: 56rpx;
+  height: 56rpx;
+  background-color: #fff;
+  border-radius: 100%;
+}
+.changeP{
+  float: right;
+}
+.gray{
+  background-color: #333c47 !important;
+}
+.my{
+  padding-bottom: 400rpx; 
+}

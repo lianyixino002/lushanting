@@ -1,0 +1,42 @@
+<view class="my">
+  <view class="myInfor">
+    <text class="context">查看账户</text>
+    <view class="right">
+      <text class="iconfont icon-you"></text>
+    </view>
+  </view>
+  <view class="myInfor">
+    <text class="context">个人资料</text>
+    <view class="right">
+      <text class="iconfont icon-you"></text>
+    </view>
+  </view>
+  <view class="myInfor">
+    <text class="context">消息提醒</text>
+    <view class="right">
+      <view class="{{ change ? 'button' : 'button gray' }}" bindtap="changeP">
+        <view class="{{ change ? 'cir' : 'cir changeP' }}"></view>
+      </view>
+    </view>
+  </view>
+  <view class="myInfor balance">
+    <text class="context">清理缓存</text>
+    <view class="right">
+      <text>  128MB  </text>
+      <text class="iconfont icon-you"></text>
+    </view>
+  </view>
+  <view class="myInfor">
+    <text class="context">帮助中心</text>
+    <view class="right">
+      <text class="iconfont icon-you"></text>
+    </view>
+  </view>
+  <view class="myInfor">
+    <text class="context">关于我们</text>
+    <view class="right">
+      <text class="iconfont icon-you"></text>
+    </view>
+  </view>
+
+</view>

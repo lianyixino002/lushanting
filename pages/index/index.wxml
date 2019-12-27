@@ -35,22 +35,22 @@
   <view class="kindImg">
     <view class="kind">
       <text class="kindOf">作者排行</text>
-      <text class="lookAll">查看全部 <text class="iconfont icon-you you"></text></text>
+      <text class="lookAll" bindtap="jumpAS">查看全部 <text class="iconfont icon-you you"></text></text>
     </view>
 
-    <view class="ki one">
+    <view class="ki one" bindtap="jumpAD">
       <image src="../../assets/images/kind5.png"></image>
       <text class="it">刘慈欣</text>
     </view>
-    <view class="ki">
+    <view class="ki" bindtap="jumpAD">
       <image src="../../assets/images/kind6.png"></image>
       <text class="it">田小花</text>
     </view>
-    <view class="ki">
+    <view class="ki" bindtap="jumpAD">
       <image src="../../assets/images/kind7.png"></image>
       <text class="it">马尔克斯</text>
     </view>
-    <view class="ki four">
+    <view class="ki four" bindtap="jumpAD">
       <image src="../../assets/images/kind8.png"></image>
       <text class="it">余秋生</text>
     </view>

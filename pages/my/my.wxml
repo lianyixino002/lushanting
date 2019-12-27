@@ -28,7 +28,7 @@
     <view class="right">
       <text class="iconfont icon-you"></text>
     </view>
-  </view>
+  </view> 
   <view class="myInfor news">
     <text class="context">我的消息</text>
     <view class="right">6</view>
@@ -46,5 +46,5 @@
       <text class="iconfont icon-you"></text>
     </view>
   </view>
-
+  <text class="iconfont icon-shezhi shezhi" bindtap="jumpSZ"></text>
 </view>

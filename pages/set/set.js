@@ -1,16 +1,17 @@
-// pages/my/my.js
+// pages/set/set.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
   },
-  jumpSZ:function(){
-    wx.navigateTo({
-      url: '../set/set',
+  change:true,
+  changeP:function(){
+    this.setData({
+      change:!this.data.change,
     })
+    console.log(this.data.change);
   },
   /**
    * 生命周期函数--监听页面加载

@@ -1,10 +1,11 @@
 {
   "pages": [
-    "pages/authorD/authorD",
-    "pages/authors/authors",
     "pages/my/my",
-    "pages/shelf/shelf",
+    "pages/set/set",
     "pages/index/index",
+    "pages/authors/authors",
+    "pages/authorD/authorD",
+    "pages/shelf/shelf",
     "pages/common/common",
     "pages/bookDetail/bookDetail",
     "pages/search/search",

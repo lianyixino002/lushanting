@@ -1,24 +1,24 @@
 <view class="authors">
   <view class="new">
     <view class="works">
-      <text class="icon2 icon5 iconfont icon-huangguan huangguan"></text>
-      <image class="future" src="../../assets/images/authorDH.png"></image>
-      <text class="icon4 icon2 iconfont icon-2 iconCount"></text>
-      <text class="authorName">余秋雨</text>
+      <text class="iconfont icon-huangguan huangguan"></text>
+      <image class="future" src="../../assets/images/authorDH.png" bindtap="jumpAD"></image>
+      <text class="iconfont icon-2 iconCount"></text>
+      <text class="authorName" bindtap="jumpAD">余秋雨</text>
       <text class="writer-name fansC">8888粉丝</text>
     </view>
     <view class="works big">
-      <text class="icon1 icon6 iconfont icon-huangguan huangguan"></text>
-      <image bindtap="first" class="future1" src="../../assets/images/authorDH.png"></image>
-      <text class="icon1 icon7 iconfont icon-1 iconCount"></text>
-      <text class="authorName">余秋雨</text>
+      <text class="iconfont icon-huangguan huangguan"></text>
+      <image bindtap="first" class="future1" src="../../assets/images/authorDH.png" bindtap="jumpAD"></image>
+      <text class="iconfont icon-1 iconCount"></text>
+      <text class="authorName" bindtap="jumpAD">余秋雨</text>
       <text class="writer-name fansC">8888粉丝</text>
     </view>
     <view class="works three">
-      <text class="icon3 icon8 iconfont icon-huangguan huangguan"></text>
-      <image class="future" src="../../assets/images/authorDH.png"></image>
-      <text class="icon3 icon9 iconfont icon-3 iconCount"></text>
-      <text class="authorName">余秋雨</text>
+      <text class="iconfont icon-huangguan huangguan"></text>
+      <image class="future" src="../../assets/images/authorDH.png" bindtap="jumpAD"></image>
+      <text class="iconfont icon-3 iconCount"></text>
+      <text class="authorName" bindtap="jumpAD">余秋雨</text>
       <text class="writer-name fansC">8888粉丝</text>
     </view>
   </view>

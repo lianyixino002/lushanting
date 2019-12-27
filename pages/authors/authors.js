@@ -1,19 +1,10 @@
 // pages/author/author.js
+const app = getApp();
 Page({
 
   /**
    * 页面的初始数据
    */
-  first: function() {
-    wx.navigateTo({
-      url: '../authorDetails/authorDetails',
-    })
-  },
-  homepage: function() {
-    wx.switchTab({
-      url: '../homepage/homepage',
-    })
-  },
   data: {
     science: '作者',
     rank: '热门作者',
@@ -66,7 +57,7 @@ Page({
     circular: true, //是否采用衔接滑动
     circular: true
   },
-
+  jumpAD: app.jumpAD, 
   /**
    * 生命周期函数--监听页面加载
    */

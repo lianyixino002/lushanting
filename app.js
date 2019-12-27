@@ -88,4 +88,16 @@ App({
       url: '../bookDetail/bookDetail',
     })
   },
+  jumpAD: function() {
+    wx.navigateTo({
+      url: '../authorD/authorD',
+    })
+  },
+  jumpAS: function() {
+    wx.navigateTo({
+      url: '../authors/authors',
+    })
+  },
+
+
 })
