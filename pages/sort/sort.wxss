@@ -1,0 +1,33 @@
+.indexOuter .sort {
+  width: 700rpx;
+  /* height: 138rpx; */
+  margin-top: 40rpx;
+  padding-left: 50rpx;
+  border-bottom: 2rpx solid #2d353d;
+  overflow: hidden;
+}
+
+swiper {
+  height: 100rpx;
+}
+
+.indexOuter .sort text {
+  color: #fff;
+  font-size: 30rpx;
+  /* position: relative;
+  top: 2rpx; */
+}
+
+.indexOuter .sort .swi {
+  /* height: 138rpx; */
+  width: 130rpx !important;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 35rpx;
+  /* overflow: hidden; */
+  border-bottom: 2rpx solid transparent;
+}
+.changeB{
+  border-color:#fb6894 !important;
+
+}

@@ -1,0 +1,58 @@
+<view class="indexOuter">
+  <view class="topNav">
+    <text class="iconfont icon-jiangbei"></text>
+    <view class="icon">
+      <text class="iconfont icon-list list"></text>
+    </view>
+  </view>
+  <view class="search" bindtap="jumpSearch">
+    <text class="iconfont icon-chakan chakan"></text>
+    <input type="text" placeholder="搜索"></input>
+  </view>
+  <!-- <view class="sort">
+    <block wx:for="{{ list }}" wx:key="idx" wx:for-index="idx" wx:for-item="item">
+      <swiper-item class="swi">
+        <text>{{ item.text }}</text>
+      </swiper-item>
+    </block>
+  </view> -->
+
+  <view class="sort">
+    <swiper class="classification-bottom" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
+      <block wx:for="{{ list }}" wx:key="index" wx:for-index="index" wx:for-item="item">
+        <swiper-item data-index="{{ index }}" bindtap="cB" class="{{ list[index].bShow ? 'swi changeB' : 'swi' }}">
+
+          <text>{{ item.text }}</text>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+  <view class="kindImg newBook">
+    <view class="kind">
+      <text class="kindOf">新上架</text>
+      <text class="lookAll">查看全部 <text class="iconfont icon-you you"></text></text>
+    </view>
+    <block wx:for="{{ reading }}" wx:key="index">
+      <view class="ki one" bindtap="jumpBD">
+        <image src="{{ item.imgPath }}"></image>
+        <text class="it">{{ item.bN }}</text>
+        <text class="au">{{ item.aN }}</text>
+      </view>
+    </block>
+  </view>
+  <view class="kindImg newBook">
+    <view class="kind">
+      <text class="kindOf">热门</text>
+      <text class="lookAll">查看全部 <text class="iconfont icon-you you"></text></text>
+    </view>
+    <block wx:for="{{ reading }}" wx:key="index">
+      <view class="ki one" bindtap="jumpBD">
+        <image src="{{ item.imgPath }}"></image>
+        <text class="it">{{ item.bN }}</text>
+        <text class="au">{{ item.aN }}</text>
+      </view>
+    </block>
+  </view>
+
+</view>

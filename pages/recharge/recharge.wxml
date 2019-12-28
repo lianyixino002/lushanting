@@ -1,0 +1,11 @@
+<view class="indexOuter">
+  <view class="balance">
+    <text class="myB">充值余额(元)</text>
+    <view class="inp">
+      <text>￥</text>
+      <input type="number" auto-focus="true"></input>
+    </view>
+  </view>
+  <view class="money">充值</view>
+  <view class="confirm"></view>
+</view>

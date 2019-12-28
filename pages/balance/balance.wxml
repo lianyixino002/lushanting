@@ -1,0 +1,8 @@
+<view class="indexOuter">
+  <view class="balance">
+    <text class="myB">我的余额(元)</text>
+    <text class="count">6666.66</text>
+  </view>
+
+  <view class="money">充值</view>
+</view>
