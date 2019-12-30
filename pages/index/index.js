@@ -41,8 +41,7 @@ Page({
       },
     ],
     reading: app.globalData.reading,
-    notRead: app.globalData.notRead,
-
+    books: app.globalData.books,
   },
   rundomcolor: function() {
     var r = parseInt(Math.floor(Math.random() * 255), 10).toString(16);
@@ -71,7 +70,6 @@ Page({
     let borders = this.data.border;
     for (let i = 0; i < 5; i++) {
       let a = this.rundomcolor();
-      console.log(a);
       borders[i].color = a;
       this.setData({
         border: borders,

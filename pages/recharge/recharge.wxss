@@ -67,3 +67,104 @@
   color: #fff;
   margin-left: 100rpx;
 }
+
+.indexOuter .confirm {
+  width: 100%;
+  height: 800rpx;
+  box-sizing: border-box;
+  background-color: #2d353f;
+  padding-left: 50rpx;
+  padding-top: 45rpx;
+  position: fixed;
+  bottom: 0;
+  display: none;
+}
+
+.indexOuter .show{
+  display: block;
+}
+
+.indexOuter .confirm .guanbi {
+  width: 50rpx;
+  height: 50rpx;
+  background-color: #1b1f24;
+  border-radius: 25rpx;
+  float: right;
+  overflow: hidden;
+  margin-right: 50rpx;
+}
+
+.indexOuter .confirm .guanbi text {
+  font-size: 18rpx;
+  color: #fff;
+  display: block;
+  margin: 0 auto;
+  line-height: 50rpx;
+  text-align: center;
+}
+
+.indexOuter .confirm .queren {
+  margin-top: 100rpx;
+  font-size: 35rpx;
+  color: #75808d;
+  display: block;
+}
+
+.indexOuter .confirm .count {
+  height: 110rpx;
+  margin-top: 20rpx;
+  font-size: 95rpx;
+  color: #fff;
+  display: block;
+}
+
+.indexOuter .confirm .inforOuter {
+  padding: 45rpx 50rpx 45rpx 0;
+  border-bottom: 2rpx solid #333c47;
+}
+
+.indexOuter .confirm .inforOuter .infor {
+  font-size: 35rpx;
+  color: #fff;
+}
+
+.indexOuter .confirm .inforOuter .right {
+  float: right;
+  color: #636c77;
+  font-size: 28rpx;
+  line-height: 35rpx;
+}
+.indexOuter .confirm .inforOuter .right text {
+  display: inline-block;
+  line-height: 50rpx;
+}
+.indexOuter .confirm .inforOuter .right .you {
+  color: #a2a8ba;
+}
+
+.indexOuter .confirm .zhiwenOuter {
+  padding: 50rpx 125rpx 0;
+}
+
+.indexOuter .confirm .zhiwenOuter .zhiwen {
+  font-size: 77rpx;
+  color: #545f6c;
+}
+
+.indexOuter .confirm .zhiwenOuter .or {
+  font-size: 34rpx;
+  color: #545f6c;
+  display: inline-block;
+  line-height: 90rpx;
+  vertical-align: top;
+  margin-left: 20rpx;
+}
+
+.indexOuter .confirm .zhiwenOuter .pw {
+  font-size: 34rpx;
+  color: #fb6894;
+  display: inline-block;
+  line-height: 90rpx;
+  margin-left: 15rpx;
+  vertical-align: top;
+}

@@ -1,14 +1,15 @@
 {
   "pages": [
+    "pages/index/index",
+    "pages/car/car",
     "pages/recharge/recharge",
     "pages/balance/balance",
-    "pages/sort/sort",
     "pages/common/common",
+    "pages/sort/sort",
     "pages/bookDetail/bookDetail",
     "pages/authors/authors",
     "pages/my/my",
     "pages/set/set",
-    "pages/index/index",
     "pages/authorD/authorD",
     "pages/shelf/shelf",
     "pages/search/search",

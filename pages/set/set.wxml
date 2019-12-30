@@ -1,5 +1,5 @@
 <view class="my">
-  <view class="myInfor">
+  <view class="myInfor" bindtap="jumpBalance">
     <text class="context">查看账户</text>
     <view class="right">
       <text class="iconfont icon-you"></text>

@@ -61,11 +61,11 @@
       <text class="kindOf">新发布</text>
       <text class="lookAll">查看全部 <text class="iconfont icon-you you"></text></text>
     </view>
-    <block wx:for="{{ notRead }}" wx:key="index">
+    <block wx:for="{{ books }}" wx:key="index">
       <view class="ki one" bindtap="jumpBD">
         <image src="{{ item.imgPath }}"></image>
-        <text class="it">{{ item.bN }}</text>
-        <text class="au">{{ item.aN }}</text>
+        <text class="it">{{ item.name }}</text>
+        <text class="au">{{ item.author }}</text>
       </view>
     </block>
   </view>

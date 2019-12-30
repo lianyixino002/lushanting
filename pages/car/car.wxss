@@ -1,0 +1,91 @@
+.indexOuter {
+  height: 1500rpx;
+  padding-top: 60rpx;
+}
+
+.indexOuter .car {
+  background-color: #293039;
+  margin: 0 50rpx;
+  border-radius: 20rpx;
+  margin-bottom: 90rpx;
+  position: relative;
+}
+
+.indexOuter .car image {
+  width: 168rpx;
+  height: 250rpx;
+  position: absolute;
+  top: -30rpx;
+  left: 40rpx;
+}
+
+.indexOuter .car .cOuter {
+  margin-left: 230rpx;
+  color: #fff;
+  padding-top: 30rpx;
+  margin-right: 95rpx;
+  padding-bottom: 50rpx;
+}
+
+.indexOuter .car .cOuter text {
+  display: block;
+}
+
+.indexOuter .car .cOuter .name {
+  font-size: 35rpx;
+}
+
+.indexOuter .car .cOuter .author {
+  font-size: 25rpx;
+  color: #5d637c;
+  padding-bottom: 20rpx;
+  border-bottom: 2rpx solid #353c46;
+}
+
+.indexOuter .car .cOuter .price {
+  font-size: 40rpx;
+  color: #ff1d8d;
+  padding-top: 15rpx;
+}
+
+.indexOuter .car .dians {
+  color: #969baf;
+  font-size: 30rpx;
+  position: absolute;
+  top: 10rpx;
+  right: 30rpx;
+}
+
+.indexOuter .footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.indexOuter .footer .price {
+  margin: 0 50rpx;
+}
+
+.indexOuter .footer .price .all {
+  display: inline-block;
+  color: #fff;
+  font-size: 31rpx;
+}
+.indexOuter .footer .price .all.balance {
+  float: right;
+}
+
+.indexOuter .footer .price .all .font {
+}
+
+.indexOuter .footer .price .all .count {
+  color: #ff1d8d;
+}
+.indexOuter .footer .buy{
+  height: 140rpx;
+  background-color: #fb6894;
+  line-height: 140rpx;
+  text-align: center;
+  color: #fff;
+  margin-top: 40rpx;
+}

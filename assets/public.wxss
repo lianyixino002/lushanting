@@ -239,29 +239,3 @@ header .login a {
 }
 
 /* =======================header over=================== */
-
-
-/* .footer */
-.footer {
-    /* background: #000; */
-    padding-bottom: 20px;
-}
-
-.footer p {
-    color: #a3a3a3;
-    text-align: center;
-}
-
-.footer p a {
-    color: #a3a3a3;
-}
-
-.footer p:first-child {
-    padding-top: 39px;
-}
-
-.footer p:last-child {
-    margin-top: 18px;
-}
-
-/* =======================.footer over=================== */

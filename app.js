@@ -65,7 +65,8 @@ App({
         imgPath: "../../assets/images/book3.png",
         bN: '许三观卖血记',
         aN: '余华'
-      }, {
+      },
+      {
         imgPath: "../../assets/images/book1.png",
         bN: '三体：死神永生',
         aN: '刘慈欣'
@@ -81,7 +82,45 @@ App({
         aN: '余华'
       },
     ],
+    books: [{
+        imgPath: '../../assets/images/bookD2.png',
+        name: '未来简史',
+        author: '尤瓦尔·赫拉利',
+        price: '56.00',
+      },
+      {
+        imgPath: '../../assets/images/bookD3.png',
+        name: '银河帝国',
+        author: '艾萨克·阿西莫夫',
+        price: '86.00',
+      },
+      {
+        imgPath: '../../assets/images/bookD4.png',
+        name: '海底两万里',
+        author: '儒勒·凡尔纳',
+        price: '99.00',
+      },
+      {
+        imgPath: "../../assets/images/book1.png",
+        name: '三体：死神永生',
+        author: '刘慈欣',
+        price:'0.00'
+      },
+      {
+        imgPath: "../../assets/images/book2.png",
+        name: '人类简史',
+        author: '尤瓦尔·郝拉利',
+        price: '0.00'
+      },
+      {
+        imgPath: "../../assets/images/book3.png",
+        name: '许三观卖血记',
+        author: '余华',
+        price: '0.00'
+      },
 
+    ],
+    balance: "6666.00",
   },
   jumpBD: function() {
     wx.navigateTo({
@@ -98,6 +137,9 @@ App({
       url: '../authors/authors',
     })
   },
-
-
+  jumpBalance: function() {
+    wx.navigateTo({
+      url: '../balance/balance',
+    })
+  },
 })

@@ -3,9 +3,33 @@
     <text class="myB">充值余额(元)</text>
     <view class="inp">
       <text>￥</text>
-      <input type="number" auto-focus="true"></input>
+      <input type="number" auto-focus="true" bindinput="inputs"></input>
     </view>
   </view>
-  <view class="money">充值</view>
-  <view class="confirm"></view>
+  <view class="money" bindtap="exit">充值</view>
+  <view  class="{{ exit ? 'confirm show' : 'confirm' }}">
+    <view class="guanbi" bindtap="exit">
+      <text class="iconfont icon-guanbi"></text>
+    </view>
+    <text class="queren">确认付款(元)</text>
+    <text class="count">{{ inputValue }}</text>
+    <view class="inforOuter">
+      <text class="infor">订单信息</text>
+      <view class="right">
+        <text class="chong">充值</text>
+      </view>
+    </view>
+    <view class="inforOuter">
+      <text class="infor">付款方式</text>
+      <view class="right">
+        <text>中国银行(0288)</text>
+        <text class="iconfont icon-you you"></text>
+      </view>
+    </view>
+    <view class="zhiwenOuter">
+      <text class="iconfont icon-zhiwen zhiwen"></text>
+      <text class="or">指纹验证或</text>
+      <text class="pw">输入密码</text>
+    </view>
+  </view>
 </view>

@@ -1,4 +1,4 @@
-// pages/set/set.js
+// pages/car/car.js
 const app = getApp();
 Page({
 
@@ -6,68 +6,70 @@ Page({
    * 页面的初始数据
    */
   data: {
+    books: app.globalData.books,
+    allP: '0.00',
+    balanceP: app.globalData.balance,
   },
-  change:true,
-  changeP:function(){
-    this.setData({
-      change:!this.data.change,
-    })
-    console.log(this.data.change);
-  },
-  jumpBalance:app.jumpBalance,
+
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
+  onLoad: function(options) {
 
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
-  onReady: function () {
-
+  onReady: function() {
+    let prices = parseInt(this.data.allP);
+    this.data.books.forEach(function(item, index) {
+      prices += parseInt(item.price);
+    })
+    this.setData({
+      allP:prices+'.00',
+    })
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
-  onShow: function () {
+  onShow: function() {
 
   },
 
   /**
    * 生命周期函数--监听页面隐藏
    */
-  onHide: function () {
+  onHide: function() {
 
   },
 
   /**
    * 生命周期函数--监听页面卸载
    */
-  onUnload: function () {
+  onUnload: function() {
 
   },
 
   /**
    * 页面相关事件处理函数--监听用户下拉动作
    */
-  onPullDownRefresh: function () {
+  onPullDownRefresh: function() {
 
   },
 
   /**
    * 页面上拉触底事件的处理函数
    */
-  onReachBottom: function () {
+  onReachBottom: function() {
 
   },
 
   /**
    * 用户点击右上角分享
    */
-  onShareAppMessage: function () {
+  onShareAppMessage: function() {
 
   }
 })
