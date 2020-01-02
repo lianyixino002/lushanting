@@ -4,4 +4,5 @@
 }
 .kindImg{
   margin-top: 90rpx;
+  margin-left: 0; 
 }
