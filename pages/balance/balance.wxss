@@ -1,5 +1,5 @@
 .indexOuter{
-  height: 1300rpx;
+  height: 1200rpx;
   padding-top: 30rpx;
 
 }

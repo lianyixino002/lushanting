@@ -22,6 +22,5 @@
   background-color: #333c47 !important;
 }
 .my{
-  padding-bottom: 550rpx; 
-  
+  padding-bottom: 400rpx; 
 }
