@@ -1,6 +1,6 @@
 .indexOuter {
   position: relative;
-  padding-bottom: 240rpx;
+  /* padding-bottom: 240rpx; */
 }
 .fangxing{
   margin-left: 20rpx;
@@ -25,6 +25,7 @@
 .indexOuter .middle {
   width: 390rpx;
   margin: 0 auto;
+  padding-bottom: 150rpx;
 }
 
 .indexOuter .middle image {
@@ -100,8 +101,9 @@
 }
 
 .indexOuter .middle2{
-  padding:130rpx 90rpx;
-  padding-top: 60rpx;
+  padding:60rpx 0rpx 130rpx 90rpx;
+  
+  /* padding-top: 60rpx; */
 }
 .indexOuter .middle2 .bDetail{
   width: 268rpx;

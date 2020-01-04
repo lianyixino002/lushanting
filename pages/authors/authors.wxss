@@ -7,7 +7,6 @@
   display: flex;
   justify-content: space-between;
   border-bottom: 2rpx solid #343946;
-
   padding-right: 50rpx;
 }
 
@@ -41,7 +40,8 @@
 
 .authors .new .works .iconCount {
   color: #f44380;
-  border: 3rpx solid #fff;
+  border-left: 3rpx solid #fff;
+  border-right: 3rpx solid #fff;
   border-radius: 50%;
   position: absolute;
   top: 200rpx;
@@ -87,66 +87,6 @@
   color: #00a2ff;
 }
 
-/* .icon2 {
-  color: #f44380;
-  margin-top: 30rpx;
-}
-
-.icon1 {
-  color: #fdaf01;
-  margin-top: 30rpx;
-}
-
-.icon3 {
-  color: #00a2ff;
-  margin-top: 30rpx;
-}
-
-.icon4 {
-  border: 2rpx solid #fff;
-  border-radius: 50%;
-  position: absolute;
-  top: 175rpx;
-  background-color: #fff;
-  font-size: 40rpx;
-}
-
-.icon5 {
-  position: absolute;
-  top: -18rpx;
-  font-size: 60rpx;
-}
-
-.icon6 {
-  position: absolute;
-  top: -75rpx;
-  font-size: 100rpx;
-}
-
-.icon7 {
-  border: 3rpx solid #fff;
-  border-radius: 50%;
-  position: absolute;
-  top: 190rpx;
-  background-color: #fff;
-  font-size: 40rpx;
-}
-
-.icon8 {
-  position: absolute;
-  top: -18rpx;
-  font-size: 60rpx;
-}
-
-.icon9 {
-  border: 3rpx solid #fff;
-  border-radius: 50%;
-  position: absolute;
-  top: 175rpx;
-  background-color: #fff;
-  font-size: 40rpx;
-} */
-
 .future {
   width: 160rpx;
   height: 160rpx;
@@ -177,17 +117,17 @@
 
 .rank {
   color: #fff;
-  font-size: 35rpx;
+  font-size: 34rpx;
 }
 
 .see {
   color: #a2a8ba;
-  font-size: 30rpx;
+  font-size: 23rpx;
 }
 
 .arrow {
   color: #a2a8ba;
-  font-size: 27rpx;
+  font-size: 20rpx;
   vertical-align: middle;
 }
 
@@ -199,6 +139,7 @@
 .type {
   color: #fff;
   display: block;
+  text-align: center;
 }
 
 .swi {
@@ -207,31 +148,37 @@
   padding-right: 35rpx !important;
 }
 
-.tom {
-  width: 760rpx;
-  border-bottom: 2rpx solid #343946;
-
-}
-
 .classification-bottom {
   margin-right: 20rpx;
 }
 
-.follow {
-  color: #fff;
+.authors .popular .scroll-view_H .scrollOuter .hotA .follows, .follow {
   display: block;
+  text-align: center;
+  color: #fff;
   margin-top: 20rpx;
   border-radius: 15rpx;
-  border: 1px solid #878d9d;
-  font-size: 25rpx;
+  border: 2px solid #545d66;
+  font-size: 23rpx;
 }
 
-.follows {
-  color: #fff;
+.authors .popular .scroll-view_H .scrollOuter .hotA .follows {
   background-color: #478ce0;
-  display: block;
-  margin-top: 20rpx;
-  border-radius: 15rpx;
-  border: 1px solid #878d9d;
-  font-size: 25rpx;
+  border-color: #478ce0;
+}
+
+.authors .popular .scroll-view_H {
+  border-bottom: 2rpx solid #343946;
+  width: 100%;
+  padding-bottom: 75rpx;
+}
+
+.authors .popular .scroll-view_H .scrollOuter {
+  width: 100%;
+  display: flex;
+}
+
+.authors .popular .scroll-view_H .scrollOuter .hotA {
+  width: 120rpx;
+  margin-right: 48rpx;
 }

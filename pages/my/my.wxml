@@ -4,7 +4,7 @@
     <view class="right">
       <text class="name">李雪玲</text>
       <text class="place">中国·襄阳</text>
-      <view class="share">
+      <view class="share" bindtap="showShare">
         <text class="iconfont icon-fenxiang">  分享</text>
       </view>
     </view>
@@ -28,7 +28,7 @@
     <view class="right">
       <text class="iconfont icon-you"></text>
     </view>
-  </view> 
+  </view>
   <view class="myInfor news">
     <text class="context">我的消息</text>
     <view class="right">6</view>
@@ -46,5 +46,22 @@
       <text class="iconfont icon-you"></text>
     </view>
   </view>
-  <text class="iconfont icon-shezhi shezhi" bindtap="jumpSZ"></text>
+  <view class="myInfor" bindtap="jumpSZ">
+    <text class="context">我的设置</text>
+    <view class="right">
+      <text class="iconfont icon-you"></text>
+    </view>
+  </view>
+</view>
+<view class="{{ share ? 'shareP sharePShow' : 'shareP' }}">
+  <text></text>
+  <view class="exit" bindtap="showShare">
+    <text class="iconfont icon-guanbi xyCenter"></text>
+  </view>
+  <view class="img">
+    <image src="../../assets/images/share1.png"></image>
+    <image src="../../assets/images/share2.png"></image>
+    <image src="../../assets/images/share3.png"></image>
+    <image src="../../assets/images/share4.png"></image>
+  </view>
 </view>

@@ -1,11 +1,4 @@
 <view class="indexOuter">
-  <view class="topNav">
-    <text class="iconfont icon-icon-arrow-left4 left" bindtap="goBack"></text>
-    <text class="content">科幻</text>
-    <view class="icon">
-      <text class="iconfont icon-list list"></text>
-    </view>
-  </view>
   <view class="bookAll">
     <image src="../../assets/images/bookDetail.png"></image>
     <view class="outer">
@@ -81,12 +74,15 @@
 </view>
 <view class="{{ shujia ? 'putin putinShow' : 'putin'}}">
   <view class="pOuter">
+    <view class="exit" bindtap="showPutin">
+      <text class="iconfont icon-guanbi xyCenter"></text>
+    </view>
     <image src="../../assets/images/bookDetail.png"></image>
     <text class="puten">已经将这本书放入个人书架</text>
     <view class="ok" bindtap="showPutin">好的</view>
   </view>
 </view>
-<view class="{{ share ? 'share shareShow' : 'share' }}">
+<view class="{{ share ? 'shareP sharePShow' : 'shareP' }}">
   <text></text>
   <view class="exit" bindtap="showShare">
     <text class="iconfont icon-guanbi xyCenter"></text>

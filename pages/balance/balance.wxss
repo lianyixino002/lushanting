@@ -10,7 +10,6 @@
   border-radius: 20rpx;
   padding-left: 50rpx;
   padding-top: 60rpx;
-
 }
 .indexOuter .balance text{
   display: block;

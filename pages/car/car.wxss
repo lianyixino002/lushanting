@@ -1,5 +1,5 @@
 .indexOuter {
-  height: 1500rpx;
+  height: 2200rpx;
   padding-top: 60rpx;
 }
 
@@ -60,10 +60,13 @@
   width: 100%;
   position: fixed;
   bottom: 0;
+  background-color: #21272e;
+
 }
 
 .indexOuter .footer .price {
   margin: 0 50rpx;
+  padding: 20rpx 0;
 }
 
 .indexOuter .footer .price .all {
@@ -87,5 +90,4 @@
   line-height: 140rpx;
   text-align: center;
   color: #fff;
-  margin-top: 40rpx;
 }

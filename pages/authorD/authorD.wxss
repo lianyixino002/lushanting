@@ -1,8 +1,11 @@
 @import '../my/my.wxss';
-.my .myHead .right .share{
+@import '../bookDetail/bookDetail.wxss';
+
+.my .myHead .right .share {
   float: left;
 }
-.my .myHead .right .share.guanzhu{
+
+.my .myHead .right .share.guanzhu {
   background-color: #478ce0;
   color: #fff;
   float: right;
@@ -76,3 +79,4 @@
   display: block;
   padding-bottom: 20rpx;
 }
+

@@ -1,7 +1,13 @@
-
-.hotBB{
-  margin: 0 auto;
+.indexOuter{
+  padding-top: 30rpx;
+  padding-bottom: 30rpx;
 }
-.kindImg{
+.hotBB {
+  margin: 0 auto;
+  margin-left: 20rpx;
+}
+
+.indexOuter .kindImg {
   margin-top: 90rpx;
+  border: 0;
 }

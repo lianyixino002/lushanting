@@ -8,11 +8,6 @@ Page({
   data: {
 
   },
-  goBack:function(){
-    wx.navigateBack({
-      
-    })
-  },
   jumpBD:app.jumpBD,
   /**
    * 生命周期函数--监听页面加载

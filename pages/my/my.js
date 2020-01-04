@@ -7,7 +7,14 @@ Page({
    */
   data: {
     balance:app.globalData.balance,
+    share:false,
   },
+  showShare: function () {
+    this.setData({
+      share: !this.data.share,
+    })
+  },
+
   jumpSZ:function(){
     wx.navigateTo({
       url: '../set/set',

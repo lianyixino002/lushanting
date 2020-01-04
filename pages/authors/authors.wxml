@@ -5,21 +5,21 @@
       <image class="future" src="../../assets/images/authorDH.png" bindtap="jumpAD"></image>
       <text class="iconfont icon-2 iconCount"></text>
       <text class="authorName" bindtap="jumpAD">余秋雨</text>
-      <text class="writer-name fansC">8888粉丝</text>
+      <text class="writer-name fansC">5869粉丝</text>
     </view>
     <view class="works big">
       <text class="iconfont icon-huangguan huangguan"></text>
       <image bindtap="first" class="future1" src="../../assets/images/authorDH.png" bindtap="jumpAD"></image>
       <text class="iconfont icon-1 iconCount"></text>
-      <text class="authorName" bindtap="jumpAD">余秋雨</text>
-      <text class="writer-name fansC">8888粉丝</text>
+      <text class="authorName" bindtap="jumpAD">刘慈欣</text>
+      <text class="writer-name fansC">6598粉丝</text>
     </view>
     <view class="works three">
       <text class="iconfont icon-huangguan huangguan"></text>
       <image class="future" src="../../assets/images/authorDH.png" bindtap="jumpAD"></image>
       <text class="iconfont icon-3 iconCount"></text>
-      <text class="authorName" bindtap="jumpAD">余秋雨</text>
-      <text class="writer-name fansC">8888粉丝</text>
+      <text class="authorName" bindtap="jumpAD">田小花</text>
+      <text class="writer-name fansC">4526粉丝</text>
     </view>
   </view>
   <view class="popular">
@@ -30,17 +30,18 @@
         <text class="arrow iconfont icon-you"></text>
       </view>
     </view>
-    <view class="tom">
-      <swiper class="classification-bottom" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
+    <scroll-view class="scroll-view_H" scroll-x="true" bindscroll="scroll">
+      <view class="scrollOuter">
         <block wx:for="{{list1}}" wx:key="idx" wx:for-index="idx" wx:for-item="item">
-          <swiper-item class="swi">
+          <view class="hotA">
             <image class="imgs" src="{{item.touxiang}}"></image>
             <text class="type">{{item.name}}</text>
             <text class="{{item.follow ? 'follow' : 'follows'}}" bindtap="already">{{item.follow ? '已关注' : '+ 关注'}}</text>
-          </swiper-item>
+          </view>
         </block>
-      </swiper>
-    </view>
+      </view>
+    </scroll-view>
+
 
 
   </view>
@@ -52,17 +53,18 @@
         <text class="arrow iconfont icon-you"></text>
       </view>
     </view>
-    <view class="tom">
-      <swiper class="classification-bottom" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
+    <scroll-view class="scroll-view_H" scroll-x="true" bindscroll="scroll">
+      <view class="scrollOuter">
         <block wx:for="{{list1}}" wx:key="idx" wx:for-index="idx" wx:for-item="item">
-          <swiper-item class="swi">
+          <view class="hotA">
             <image class="imgs" src="{{item.touxiang}}"></image>
             <text class="type">{{item.name}}</text>
             <text class="{{item.follow ? 'follow' : 'follows'}}" bindtap="already">{{item.follow ? '已关注' : '+ 关注'}}</text>
-          </swiper-item>
+          </view>
         </block>
-      </swiper>
-    </view>
+      </view>
+    </scroll-view>
+
   </view>
   <view class="classification">
     <text class="rank">{{rank2}}</text>

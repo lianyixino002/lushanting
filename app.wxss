@@ -1,6 +1,7 @@
 /**app.wxss**/
 @import './assets/font/iconfont.wxss';
 @import './assets/public.wxss';
+
 .indexOuter {
   background-color: #21272e;
 }
@@ -43,7 +44,7 @@
 .topNav {
   padding: 0 48rpx;
   padding-bottom: 50rpx;
-  padding-top: 30rpx;
+  padding-top: 50rpx;
   overflow: hidden;
   position: relative;
 }
@@ -194,6 +195,7 @@
   width: 160rpx;
   height: 160rpx;
   margin-bottom: 15rpx;
+  border-radius: 20rpx;
 }
 
 .indexOuter .kindImg.newBook .ki {
@@ -230,4 +232,18 @@
   display: inline-block;
   /* color: #f54d82; */
   border: 2rpx solid transparent;
+}
+
+.indexOuter .kindImg .classification-bottom {
+  width: 700rpx !important;
+}
+
+.indexOuter .kindImg .swi {
+  width: 183rpx !important;
+}
+
+.indexOuter .kindImg .scroll-view_H .scrollOuter {
+  width: 100%;
+  display: flex;
+  
 }

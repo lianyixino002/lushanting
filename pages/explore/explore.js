@@ -6,6 +6,32 @@ Page({
    * 页面的初始数据
    */
   data: {
+    explores:[
+      {
+        imgPath:'../../assets/images/explore21.png',
+        bName:'三体：死神永生',
+        aName:'刘慈欣'
+      },
+      {
+        imgPath: '../../assets/images/explore22.png',
+        bName: '百年孤独',
+        aName: '加西亚·马尔克斯'
+
+      },
+      {
+        imgPath: '../../assets/images/explore23.png',
+        bName: '平凡的世界',
+        aName: '路遥'
+
+      },
+      {
+        imgPath: '../../assets/images/explore24.png',
+        bName: '未来简史',
+        aName: '尤瓦尔·赫拉利'
+
+      },
+
+    ],
     ex1Show: true,
     ex2Show: false,
   },

@@ -1,11 +1,4 @@
 <view class="indexOuter">
-  <view class="topNav">
-    <text class="iconfont icon-icon-arrow-left4 left" bindtap="goBack"></text>
-    <text class="content">科幻</text>
-    <view class="icon">
-      <text class="iconfont icon-list list"></text>
-    </view>
-  </view>
   <view class="kindImg hotSell" bindtap="jumpBD">
     <view class="hotBB">
       <image src="../../assets/images/bookD1.png"></image>

@@ -1,4 +1,5 @@
 // pages/authorD/authorD.js
+const app = getApp();
 Page({
 
   /**
@@ -28,6 +29,13 @@ Page({
       }
 
     ],
+    share:false,
+  },
+  jumpBD: app.jumpBD,
+  showShare: function() {
+    this.setData({
+      share: !this.data.share,
+    })
   },
 
   /**

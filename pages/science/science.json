@@ -1,3 +1,7 @@
 {
-  "usingComponents": {}
+  "usingComponents": {},
+      "navigationBarBackgroundColor": "#21272e",
+      "navigationBarTitleText": "科幻",
+      "navigationBarTextStyle": "white"
+      
 }

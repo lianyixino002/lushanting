@@ -4,7 +4,7 @@
     <view class="right">
       <text class="name">田小康</text>
       <text class="place">中国·保康</text>
-      <view class="share">
+      <view class="share" bindtap="showShare">
         <text class="iconfont icon-fenxiang">  分享</text>
       </view>
       <view class="share guanzhu">
@@ -33,7 +33,7 @@
     </view>
   </view>
   <block wx:for="{{ books }}" wx:key="index">
-    <view class="books">
+    <view class="books" bindtap="jumpBD">
       <image src="{{ item.imgPath }}"></image>
       <view class="details">
         <text class="bn">{{ item.name }}</text>
@@ -50,4 +50,16 @@
       </view>
     </view>
   </block>
+</view>
+<view class="{{ share ? 'shareP sharePShow' : 'shareP' }}">
+  <text></text>
+  <view class="exit" bindtap="showShare">
+    <text class="iconfont icon-guanbi xyCenter"></text>
+  </view>
+  <view class="img">
+    <image src="../../assets/images/share1.png"></image>
+    <image src="../../assets/images/share2.png"></image>
+    <image src="../../assets/images/share3.png"></image>
+    <image src="../../assets/images/share4.png"></image>
+  </view>
 </view>

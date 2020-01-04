@@ -20,6 +20,7 @@
 
 .indexOuter .bookAll {
   position: relative;
+  padding-top: 30rpx;
   padding-bottom: 65rpx;
   border-bottom: 2px solid #353946;
 }
@@ -29,7 +30,7 @@
   height: 320rpx;
   float: left;
   position: absolute;
-  top: 0;
+  top: 30rpx;
   left: 0;
 }
 
@@ -319,7 +320,7 @@
   font-size: 32rpx;
 }
 
-.share {
+.shareP {
   width: 100%;
   height: 330rpx;
   background-color: #363945;
@@ -330,16 +331,14 @@
   display: none;
 }
 
-.shareShow {
+.sharePShow {
   display: block;
 }
 
-.share .exit {
-  /* padding: 30rpx 50rpx 60rpx; */
+.exit {
   width: 50rpx;
   height: 50rpx;
   background-color: #1b1f24;
-  /* margin-right: 50rpx; */
   border-radius: 25rpx;
   overflow: hidden;
   position: absolute;
@@ -347,18 +346,18 @@
   right: 50rpx;
 }
 
-.share .exit text {
+.exit text {
   color: #fff;
   font-size: 23rpx;
 }
 
-.share .img {
+.shareP .img {
   padding: 0 95rpx;
   display: flex;
   justify-content: space-between;
 }
 
-.share .img image {
+.shareP .img image {
   width: 80rpx;
   height: 80rpx;
   border-radius: 40rpx;

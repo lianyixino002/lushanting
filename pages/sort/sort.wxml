@@ -1,9 +1,6 @@
 <view class="indexOuter">
   <view class="topNav">
     <text class="iconfont icon-jiangbei"></text>
-    <view class="icon">
-      <text class="iconfont icon-list list"></text>
-    </view>
   </view>
   <view class="search" bindtap="jumpSearch">
     <text class="iconfont icon-chakan chakan"></text>
